@@ -27,7 +27,9 @@ html {
   a{
     text-decoration: none;
   }
-
+body{
+    background: url("../images/background_image/header-shapes\ mobile@2x.svg") center 110px no-repeat
+}
   /* Header Section */
   div.main-container{
       display: flex;
@@ -53,7 +55,7 @@ html {
 
   /* Hero Section */
   section.hero-section {
-    margin-top: 110px;
+    margin-top: 120px;
     border-bottom-left-radius: 25px;
   }
 
@@ -90,5 +92,5 @@ html {
     margin: 0;
 }
 .hero-section > figure img.socials{
-    margin-right: 1em
+    margin-right: 20px
 }
