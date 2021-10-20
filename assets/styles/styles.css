@@ -2,95 +2,99 @@
 
 /* General page settings */
 html {
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-  }
-  
-  *,
-  *::before,
-  *::after {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-  }
-
-  :root {
-    --primary-color-1: #6070FF;
-    --primary-color-2: #7F8CFF;
-
-    --accent-color-1: #172B4D;
-    --accent-color-2: #344563;
-
-    --neutral-color-1: #FFFFFF;
-  }
-
-  a{
-    text-decoration: none;
-  }
-body{
-    background: url("../images/background_image/header-shapes\ mobile@2x.svg") center 110px no-repeat
-}
-  /* Header Section */
-  div.main-container{
-      display: flex;
-      flex-direction: column;
-      margin: 0
-  }
-  .limited{
-    margin:  24px 14px
-  }
-  header {
-      display: flex;
-      justify-content: space-between;
-  }
-
-  header .logo span{
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 20px;
-    color: var(--primary-color-1)
-  }
-
-  /* Hero Section */
-  section.hero-section {
-    margin-top: 120px;
-    border-bottom-left-radius: 25px;
-  }
-
-.hero-section hgroup h1{
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 45px;
-    line-height: 52px;
-    color: var(--accent-color-1)
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
 }
 
-.hero-section hgroup h4{
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    color: var(--accent-color-2)
+*,
+*::before,
+*::after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-.hero-section > h4{
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    color: var(--primary-color-2);
-    text-transform: uppercase;
+:root {
+  --primary-color-1: #6070ff;
+  --primary-color-2: #7f8cff;
+  --accent-color-1: #172b4d;
+  --accent-color-2: #344563;
+  --neutral-color-1: #fff;
 }
 
-.hero-section > figure{
-    display: flex;
-    margin: 0;
+a {
+  text-decoration: none;
 }
-.hero-section > figure img.socials{
-    margin-right: 20px
+
+body {
+  background: url("../images/background_image/header-shapes\ mobile@2x.svg") center 110px no-repeat;
+}
+
+/* Header Section */
+div.main-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.limited {
+  margin: 24px 14px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+header .logo span {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+  color: var(--primary-color-1);
+}
+
+/* Hero Section */
+section.hero-section {
+  margin-top: 120px;
+  border-bottom-left-radius: 25px;
+}
+
+.hero-section hgroup h1 {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 52px;
+  color: var(--accent-color-1);
+}
+
+.hero-section > h4 {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--primary-color-2);
+  text-transform: uppercase;
+  margin: 14px 0;
+}
+
+.hero-section hgroup h4 {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--accent-color-2);
+}
+
+.hero-section > figure {
+  display: flex;
+  margin: 0;
+}
+
+.hero-section > figure img.socials {
+  margin-right: 20px;
 }
