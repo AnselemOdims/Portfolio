@@ -20,6 +20,7 @@ html {
   --accent-color-1: #172b4d;
   --accent-color-2: #344563;
   --neutral-color-1: #fff;
+  --neutral-color-2: #f6f7f8;
 }
 
 a {
@@ -27,7 +28,8 @@ a {
 }
 
 body {
-  background: url("../images/background_image/header-shapes\ mobile@2x.svg") center 110px no-repeat;
+  margin: 0;
+  background-color: var(--neutral-color-2);
 }
 
 /* Header Section */
@@ -35,10 +37,13 @@ div.main-container {
   display: flex;
   flex-direction: column;
   margin: 0;
+  background: var(--neutral-color-1) url("../images/background_image/header-shapes\ mobile@2x.svg") center 93px no-repeat;
+  height: 100vh;
+  border-bottom-left-radius: 100px;
 }
 
 .limited {
-  margin: 24px 14px;
+  margin: 24px;
 }
 
 header {
@@ -58,7 +63,6 @@ header .logo a {
 /* Hero Section */
 section.hero-section {
   margin-top: 120px;
-  border-bottom-left-radius: 25px;
 }
 
 .hero-section hgroup h1 {
