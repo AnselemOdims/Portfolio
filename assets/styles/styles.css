@@ -1,0 +1,24 @@
+
+/* General page settings */
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  :root {
+    --primary: rgb(248, 247, 247);
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  
