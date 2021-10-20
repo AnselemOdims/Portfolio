@@ -51,4 +51,44 @@ html {
     color: var(--primary-color-1)
   }
 
-  
+  /* Hero Section */
+  section.hero-section {
+    margin-top: 110px;
+    border-bottom-left-radius: 25px;
+  }
+
+.hero-section hgroup h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 52px;
+    color: var(--accent-color-1)
+}
+
+.hero-section hgroup h4{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--accent-color-2)
+}
+
+.hero-section > h4{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--primary-color-2);
+    text-transform: uppercase;
+}
+
+.hero-section > figure{
+    display: flex;
+    margin: 0;
+}
+.hero-section > figure img.socials{
+    margin-right: 1em
+}
