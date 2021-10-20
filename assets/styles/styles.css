@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap');
 
 /* General page settings */
 html {
@@ -14,11 +15,40 @@ html {
   }
 
   :root {
-    --primary: rgb(248, 247, 247);
+    --primary-color-1: #6070FF;
+    --primary-color-2: #7F8CFF;
+
+    --accent-color-1: #172B4D;
+    --accent-color-2: #344563;
+
+    --neutral-color-1: #FFFFFF;
   }
 
   a{
     text-decoration: none;
+  }
+
+  /* Header Section */
+  div.main-container{
+      display: flex;
+      flex-direction: column;
+      margin: 0
+  }
+  .limited{
+    margin:  24px 14px
+  }
+  header {
+      display: flex;
+      justify-content: space-between;
+  }
+
+  header .logo span{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    color: var(--primary-color-1)
   }
 
   
