@@ -65,7 +65,7 @@ section.hero-section {
   margin-top: 120px;
 }
 
-.hero-section hgroup h1 {
+.hero-section > h1 {
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -85,7 +85,7 @@ section.hero-section {
   margin: 14px 0;
 }
 
-.hero-section hgroup h4 {
+.hero-section > p {
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: normal;
