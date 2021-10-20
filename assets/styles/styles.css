@@ -46,7 +46,7 @@ header {
   justify-content: space-between;
 }
 
-header .logo span {
+header .logo a {
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: bold;
