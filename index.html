@@ -109,7 +109,7 @@
           <li>css</li>
           <li>javascript</li>
         </ul>
-        <button class="project-btn">See Project</button>
+        <button class="project-btn" type="button">See Project</button>
       </div>
       <div class="card">
         <figure>
@@ -135,7 +135,7 @@
           <li>css</li>
           <li>javascript</li>
         </ul>
-        <button class="project-btn">See Project</button>
+        <button class="project-btn" type="button">See Project</button>
       </div>
       <div class="card">
         <figure>
@@ -161,7 +161,7 @@
           <li>css</li>
           <li>javascript</li>
         </ul>
-        <button class="project-btn">See Project</button>
+        <button class="project-btn" type="button">See Project</button>
       </div>
       <div class="card">
         <figure>
@@ -187,12 +187,12 @@
           <li>css</li>
           <li>javascript</li>
         </ul>
-        <button class="project-btn">See Project</button>
+        <button class="project-btn" type="button">See Project</button>
       </div>
     </section>
-    <div class="about">
-      <section class="about-section limited">
-        <h1>About <br>Myself</h1>
+    <section class="about">
+      <div class="about-section limited">
+        <h1>About <br />Myself</h1>
         <p>
           Hello I’m a software developer! I can help you build a product ,
           feature or website Look through some of my work and experience! If you
@@ -252,32 +252,49 @@
             /></a>
           </li>
         </ul>
-        <button class="project-btn">Get my resume</button>
-      </section>
-      <section class="languages limited">
+        <button class="project-btn" type="button">Get my resume</button>
+      </div>
+      <div class="languages limited">
         <ul>
           <li>
             <span>Languages</span
-            ><img src="assets/images/icons/arrow.svg" class="clicked" />
+            ><img
+              src="assets/images/icons/arrow.svg"
+              alt="arrow image"
+              class="clicked"
+            />
           </li>
-          <ul class="dropdown-list">
-            <li><img src="assets/images/icons/js.png" /><span>Javascript</span
-              ></li>
-            <li><img src="assets/images/icons/html.png" /><span>HTML</span
-              ></li>
-            <li><img src="assets/images/icons/cs.png" /><span>CSS</span
-              ></li>
-          </ul>
+          <li class="dropdown-list">
+            <ul>
+              <li>
+                <img src="assets/images/icons/js.png" alt="js image" /><span
+                  >Javascript</span
+                >
+              </li>
+              <li>
+                <img src="assets/images/icons/html.png" alt="html image" /><span
+                  >HTML</span
+                >
+              </li>
+              <li>
+                <img src="assets/images/icons/cs.png" alt="css image" /><span
+                  >CSS</span
+                >
+              </li>
+            </ul>
+          </li>
           <li>
-            <span>Frameworks</span><img src="assets/images/icons/arrow.svg" />
+            <span>Frameworks</span
+            ><img src="assets/images/icons/arrow.svg" alt="arrow image" />
           </li>
-          <hr />
+          <li class="divider"><hr /></li>
           <li>
-            <span>Skills</span><img src="assets/images/icons/arrow.svg" />
+            <span>Skills</span
+            ><img src="assets/images/icons/arrow.svg" alt="arrow image" />
           </li>
-          <hr />
+          <li class="divider"><hr /></li>
         </ul>
-      </section>
-    </div>
+      </div>
+    </section>
   </body>
 </html>

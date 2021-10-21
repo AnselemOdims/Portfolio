@@ -43,9 +43,7 @@ div.main-container {
   display: flex;
   flex-direction: column;
   margin: 0;
-  background: var(--neutral-color-1)
-    url("../images/background_image/header-shapes\ mobile@2x.svg") center 93px
-    no-repeat;
+  background: var(--neutral-color-1) url("../images/background_image/header-shapes\ mobile@2x.svg") center 93px no-repeat;
   height: 100vh;
   border-bottom-left-radius: 100px;
 }
@@ -140,7 +138,7 @@ section.card-container > div.card {
 
 .card h2 {
   margin: 10px 0 20px;
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
@@ -160,36 +158,6 @@ section.card-container > div.card {
   text-align: center;
 }
 
-.card > div.author-lang ul {
-  display: flex;
-  margin: 0;
-  list-style: none;
-  padding: 0;
-}
-
-.card ul.project-lang > li {
-  padding: 4px 12px;
-  background: var(--primary-color-3);
-  border-radius: 8px;
-  margin-right: 8px;
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  color: var(--primary-color-1);
-}
-
-.card > div.author-lang ul li {
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
-  color: var(--neutral-color-5);
-}
-
 .card > div.author-lang ul li::before {
   content: "";
   background: var(--neutral-color-4);
@@ -202,16 +170,8 @@ section.card-container > div.card {
   margin: 0 12px;
 }
 
-.card > div.author-lang span {
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
-}
-
 .card > p.project-desc {
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -233,8 +193,8 @@ section.card-container > div.card {
   border: 1px solid var(--primary-color-1);
   border-radius: 8px;
   background: var(--neutral-color-1);
-  padding: 12px;
-  font-family: Poppins;
+  padding: 10px;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -278,6 +238,7 @@ section.card-container > div.card {
 .about-section {
   margin-top: 0;
 }
+
 .about-section h1 {
   margin: 0;
 }
@@ -294,24 +255,24 @@ section.card-container > div.card {
   margin-bottom: 22px;
 }
 
-section.languages {
+.languages {
   margin-bottom: 113px;
 }
 
-section.languages > ul {
+.languages > ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-section.languages > ul > li {
+.languages > ul > li {
   display: flex;
   justify-content: space-between;
   padding: 24px 0 24px 0;
 }
 
-section.languages > ul > li span {
-  font-family: Poppins;
+.languages > ul > li span {
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -319,25 +280,38 @@ section.languages > ul > li span {
   margin-left: 12px;
 }
 
-section.languages > ul > li img {
+.languages > ul > li img {
   margin-right: 42px;
 }
 
-section.languages > ul > li img.clicked {
+.languages > ul > li img.clicked {
   transform: rotate(90deg);
 }
 
-section.languages hr {
+.languages > ul > li.divider {
+  display: block;
+  padding: 0;
+}
+
+.languages > ul > li.divider hr {
   border: none;
   border-top: solid 2px #dfe1e6;
 }
 
-ul.dropdown-list {
+.languages > ul > li.dropdown-list {
+  display: block;
+}
+
+.languages > ul > li.dropdown-list img {
+  margin-right: 0;
+}
+
+li.dropdown-list ul {
   list-style: none;
   padding: 0;
 }
 
-ul.dropdown-list li {
+li.dropdown-list ul li {
   display: flex;
   align-items: center;
   margin: 12px;
@@ -346,12 +320,50 @@ ul.dropdown-list li {
   border-radius: 8px;
 }
 
-ul.dropdown-list li span {
+li.dropdown-list ul li span {
   margin-left: 16px;
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
   color: #253858;
+}
+
+.card > div.author-lang ul {
+  display: flex;
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+
+.card ul.project-lang > li {
+  padding: 4px 12px;
+  background: var(--primary-color-3);
+  border-radius: 8px;
+  margin-right: 8px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: var(--primary-color-1);
+}
+
+.card > div.author-lang ul li {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: var(--neutral-color-5);
+}
+
+.card > div.author-lang span {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
 }
