@@ -67,11 +67,13 @@ header .logo a {
 }
 
 /* Hero Section */
+/* Hero Section  & About Section */
 section.hero-section {
   margin-top: 120px;
 }
 
-.hero-section > h1 {
+.hero-section > h1,
+.about-section > h1 {
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -80,7 +82,8 @@ section.hero-section {
   color: var(--accent-color-1);
 }
 
-.hero-section > h4 {
+.hero-section > h4,
+.about-section > h4 {
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -91,7 +94,8 @@ section.hero-section {
   margin: 14px 0;
 }
 
-.hero-section > p {
+.hero-section > p,
+.about-section > p {
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -100,14 +104,17 @@ section.hero-section {
   color: var(--accent-color-2);
 }
 
-.hero-section > ul {
+.hero-section > ul,
+.about-section > ul {
   display: flex;
   margin: 0;
   list-style: none;
   padding: 0;
+  align-items: center;
 }
 
-.hero-section > ul > li {
+.hero-section > ul > li,
+.about-section > ul > li {
   margin-right: 20px;
 }
 
@@ -219,6 +226,109 @@ section.card-container > div.card {
   background: var(--neutral-color-1);
   box-shadow: none;
   cursor: not-allowed;
+}
+
+/* About Section */
+.about {
+  margin-top: 114px;
+  background: var(--neutral-color-1);
+  border-top-right-radius: 100px;
+  padding: 114px 0;
+}
+
+.about-section {
+  margin-top: 0;
+}
+
+.about-section h1 {
+  margin: 0;
+}
+
+.about-section p {
+  margin: 12px 0;
+}
+
+.about-section h4 {
+  margin: 0 0 26px;
+}
+
+.about-section > ul {
+  margin-bottom: 22px;
+}
+
+.languages {
+  margin-bottom: 113px;
+}
+
+.languages > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.languages > ul > li {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 0 24px 0;
+}
+
+.languages > ul > li span {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  margin-left: 12px;
+}
+
+.languages > ul > li img {
+  margin-right: 42px;
+}
+
+.languages > ul > li img.clicked {
+  transform: rotate(90deg);
+}
+
+.languages > ul > li.divider {
+  display: block;
+  padding: 0;
+}
+
+.languages > ul > li.divider hr {
+  border: none;
+  border-top: solid 2px #dfe1e6;
+}
+
+.languages > ul > li.dropdown-list {
+  display: block;
+}
+
+.languages > ul > li.dropdown-list img {
+  margin-right: 0;
+}
+
+li.dropdown-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+li.dropdown-list ul li {
+  display: flex;
+  align-items: center;
+  margin: 12px;
+  padding: 9px 0 9.72px 12px;
+  background: var(--neutral-color-6);
+  border-radius: 8px;
+}
+
+li.dropdown-list ul li span {
+  margin-left: 16px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #253858;
 }
 
 .card > div.author-lang ul {
