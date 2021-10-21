@@ -94,11 +94,13 @@ section.hero-section {
   color: var(--accent-color-2);
 }
 
-.hero-section > figure {
+.hero-section > ul {
   display: flex;
   margin: 0;
+  list-style: none;
+  padding: 0;
 }
 
-.hero-section > figure img.socials {
+.hero-section > ul > li {
   margin-right: 20px;
 }
