@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/AnselemOdims/Portfolio#readme",
   "devDependencies": {
-    "hint": "^6.1.4",
+    "hint": "^6.1.6",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
