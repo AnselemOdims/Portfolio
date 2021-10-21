@@ -234,3 +234,23 @@ section.card-container > div.card {
   color: var(--primary-color-4);
   margin-bottom: 28px;
 }
+
+.card button.project-btn:hover {
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  background: #6070ff;
+  cursor: pointer;
+  color: var(--neutral-color-1);
+}
+
+.card button.project-btn:active {
+  background: #2230d2;
+  border-radius: 8px;
+}
+
+.card button.project-btn:disabled {
+  color: #5e6c84;
+  border: 1px solid var(--neutral-color-4);
+  background: var(--neutral-color-1);
+  box-shadow: none;
+  cursor: not-allowed;
+}
