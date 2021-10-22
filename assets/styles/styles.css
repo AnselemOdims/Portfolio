@@ -72,7 +72,7 @@ section.hero-section {
 }
 
 .hero-section > h1,
-.about-section > h1 {
+.about-section > h2 {
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -239,7 +239,7 @@ section.card-container > div.card {
   margin-top: 0;
 }
 
-.about-section h1 {
+.about-section h2 {
   margin: 0;
 }
 
