@@ -8,7 +8,6 @@
     <link href="assets/styles/styles.css" rel="stylesheet" />
   </head>
   <body>
-    <div class="main-container">
       <header class="limited">
         <div class="logo">
           <a href="#">My Logo</a>
@@ -19,6 +18,7 @@
       </header>
       <!-- end of header section -->
       <main>
+        <div class="main-container">
         <section class="hero-section limited">
           <h1>I’m Anselem Glad to see you!</h1>
           <p>
@@ -81,9 +81,8 @@
             </li>
           </ul>
         </section>
-      </main>
     </div>
-      <!---end of main section-->
+      <!---end of hero main section-->
       <section class="card-container limited">
         <div class="card">
           <figure>
@@ -298,5 +297,26 @@
         </div>
       </section>
       <!--end of about section-->
+    </main>
+    <!--end of main section-->
+      <footer>
+        <section class="contact-heading">
+          <h2>Contact me</h2>
+          <p>
+            If you have an application you are interested in developing, a feature
+            that you need built or a project that needs coding. I’d love to help
+            with it
+          </p>
+        </section>
+        <section class="contact-form">
+          <form action="https://formspree.io/f/xgerbrnd" method="POST">
+            <input type="text" name="name" id="full-name"  placeholder="Yeremias"  minlength="5" maxlength="30" required />
+            <input type="email" name="email"  id="email" placeholder="natajayanj14@gmail.com"  required />
+            <textarea name="message" id="message" placeholder="Write your message here" minlength="5" maxlength="500" required></textarea>
+            <button class="project-btn" type="submit" id="submit">Get In Touch</button>
+          </form>
+        </section>
+      </footer>
+      <!--end of footer section-->
   </body>
 </html>
