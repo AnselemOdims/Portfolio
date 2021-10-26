@@ -35,21 +35,9 @@ a {
 
 body {
   margin: 0;
-  background-color: var(--neutral-color-2);
 }
 
 /* Header Section */
-div.main-container {
-  display: flex;
-  flex-direction: column;
-  margin: 0;
-  background: var(--neutral-color-1)
-    url("../images/background_image/header-shapes\ mobile@2x.svg") center 93px
-    no-repeat;
-  height: 100vh;
-  border-bottom-left-radius: 100px;
-}
-
 .limited {
   margin: 24px;
 }
@@ -69,6 +57,20 @@ header .logo a {
 }
 
 /* Hero Section  & About Section */
+main {
+  background-color: var(--neutral-color-2);
+}
+
+div.main-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  background: var(--neutral-color-1)
+    url("../images/background_image/header-shapes\ mobile@2x.svg") center 93px
+    no-repeat;
+  height: 100vh;
+  border-bottom-left-radius: 100px;
+}
 section.hero-section {
   margin-top: 120px;
 }
