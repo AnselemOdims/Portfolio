@@ -126,12 +126,16 @@
   footer .contact-form {
     width: 62%;
   }
-}
 
-header nav .desktop-menu ul > li {
-  margin-right: 16px;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
+  footer .contact-form form button {
+    width: 140px;
+  }
+
+  header nav .desktop-menu ul > li {
+    margin-right: 16px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+  }
 }
