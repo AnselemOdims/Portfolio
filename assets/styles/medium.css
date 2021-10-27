@@ -1,0 +1,141 @@
+@media (min-width: 600px) {
+  /* Header section */
+  header {
+    position: fixed;
+    width: 100%;
+    height: 72px;
+    background: var(--neutral-color-1);
+    padding: 26px 60px 26px 93px;
+    align-items: center;
+  }
+
+  header nav .hamburger {
+    display: none;
+  }
+
+  header > nav > img {
+    display: none;
+  }
+
+  header nav .desktop-menu {
+    display: flex;
+    padding: 0;
+  }
+
+  header nav .desktop-menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    align-items: center;
+    padding: 0;
+  }
+
+  /* Hero Section */
+  div.main-container {
+    background: var(--neutral-color-1) url("../images/background_image/Header\ bg.svg") 0 100px no-repeat;
+    height: 90vh;
+    background-size: contain, 100%;
+    margin: 0;
+    padding: 10px 70px 80px;
+  }
+
+  .hero-section > h1 {
+    font-size: 48px;
+  }
+
+  /* Project Section */
+  section.card-container > div.card {
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .card-details {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 10px 0 0 20px;
+  }
+
+  section.card-container > div.card:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+
+  section.card-container > div.card:nth-child(even) .card-details {
+    margin: 10px 20px 0 0;
+  }
+
+  button.project-btn:active {
+    background: #2230d2;
+  }
+
+  /* About Section */
+  section.about {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 142px;
+  }
+
+  section.about .about-section {
+    margin: 0 0 0 24px;
+  }
+
+  .about-section button.project-btn {
+    max-width: 70%;
+  }
+
+  section.about .languages {
+    margin: 0 24px 0 12px;
+  }
+
+  .languages > ul > li img {
+    margin-right: 5px;
+  }
+
+  .languages > ul > li.dropdown-list ul {
+    display: flex;
+  }
+
+  li.dropdown-list > ul > li {
+    flex-direction: column;
+    margin: 6px;
+    padding: 9px 10px 9.72px;
+    align-items: center;
+    text-align: center;
+  }
+
+  li.dropdown-list ul li img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px;
+  }
+
+  li.dropdown-list ul li span {
+    margin: 0;
+  }
+
+  /* Footer Section */
+  footer {
+    margin-top: 114px;
+    background: var(--primary-color-1) url("../images/background_image/contact\ form\ background\ shapes.svg") 0 200px no-repeat;
+    position: unset;
+  }
+
+  footer .contact-heading {
+    width: 70%;
+  }
+
+  footer .contact-form {
+    width: 62%;
+  }
+
+  footer .contact-form form button {
+    width: 140px;
+  }
+
+  header nav .desktop-menu ul > li {
+    margin-right: 16px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+  }
+}

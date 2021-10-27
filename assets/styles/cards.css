@@ -1,0 +1,105 @@
+section.card-container > div.card,
+.modal .card {
+  display: flex;
+  flex-direction: column;
+  background: var(--neutral-color-1);
+  border-radius: 16px;
+  padding: 16px;
+  border: 1px solid var(--neutral-color-3);
+  width: 100%;
+}
+
+.card-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-details h2 {
+  margin: 10px 0 20px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  color: var(--accent-color-1);
+}
+
+.card > figure {
+  width: 100%;
+  margin: 0;
+}
+
+.card > figure img {
+  width: 100%;
+  height: 100%;
+}
+
+.card-details > div.author-lang {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+
+.card-details > div.author-lang ul li::before {
+  content: "";
+  background: var(--neutral-color-4);
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  line-height: 2rem;
+  text-align: center;
+  margin: 0 12px;
+}
+
+.card-details > p.project-desc {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  margin: 20px 0 12px;
+  color: var(--accent-color-2);
+}
+
+.card-details ul.project-lang {
+  list-style: none;
+  display: flex;
+  margin: 0 0 24px 0;
+  padding: 0;
+}
+
+.card-details > div.author-lang ul {
+  display: flex;
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+
+.card-details ul.project-lang > li {
+  padding: 4px 12px;
+  background: var(--primary-color-3);
+  border-radius: 8px;
+  margin-right: 8px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: var(--primary-color-1);
+  height: 24px;
+}
+
+.card-details > div.author-lang ul li {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: var(--neutral-color-5);
+}
+
+.card-details > div.author-lang span {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+}

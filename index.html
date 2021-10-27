@@ -8,22 +8,31 @@
     <link href="assets/styles/styles.css" rel="stylesheet" />
   </head>
   <body>
-      <header class="limited">
-        <div class="logo">
-          <a href="#">My Logo</a>
-        </div>
-        <nav>
+    <header>
+      <div class="logo">
+        <a href="#">Anse_Dev</a>
+      </div>
+      <nav>
+        <div class="hamburger">
           <img src="assets/images/icons/Union.svg" alt="hamburger image" />
-        </nav>
-      </header>
-      <!-- end of header section -->
-      <main>
-        <div class="main-container">
+        </div>
+        <div class="desktop-menu">
+          <ul>
+            <li><a>Portfolio</a></li>
+            <li><a>About</a></li>
+            <li><a>Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- end of header section -->
+    <main>
+      <div class="main-container">
         <section class="hero-section limited">
-          <h1>I’m Anselem Glad to see you!</h1>
+          <h1>I’m Anselem <br />Glad to see you!</h1>
           <p>
             I’m a software developer! I can help you build a product , feature
-            or website Look through some of my work and experience! If you like
+            or website. Look through some of my work and experience! If you like
             what you see and have a project you need coded, don’t hestiate to
             contact me.
           </p>
@@ -81,123 +90,135 @@
             </li>
           </ul>
         </section>
-    </div>
-      <!---end of hero main section-->
+      </div>
+      <!---end of main section-->
       <section class="card-container limited">
         <div class="card">
           <figure>
             <img
-              src="assets/images/background_image/first_portfolio.png"
+              src="assets/images/background_image/first_large.png"
               alt="project image"
             />
           </figure>
-          <h2>Tonic</h2>
-          <div class="author-lang">
-            <span>CANOPY</span>
-            <ul>
-              <li>Back End Dev</li>
-              <li>2015</li>
+          <div class="card-details">
+            <h2>Tonic</h2>
+            <div class="author-lang">
+              <span>CANOPY</span>
+              <ul>
+                <li>Back End Dev</li>
+                <li>2015</li>
+              </ul>
+            </div>
+            <p class="project-desc">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required.
+            </p>
+            <ul class="project-lang">
+              <li>html</li>
+              <li>css</li>
+              <li>javascript</li>
             </ul>
+            <button class="project-btn" type="button">See Project</button>
           </div>
-          <p class="project-desc">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required.
-          </p>
-          <ul class="project-lang">
-            <li>html</li>
-            <li>css</li>
-            <li>javascript</li>
-          </ul>
-          <button class="project-btn" type="button">See Project</button>
+        </div>
+        <div class="card reverse">
+          <figure>
+            <img
+              src="assets/images/background_image/second_large.png"
+              alt="project image"
+            />
+          </figure>
+          <div class="card-details">
+            <h2>Multi-Post Stories</h2>
+            <div class="author-lang">
+              <span>FACEBOOK</span>
+              <ul>
+                <li>Full Stack Dev</li>
+                <li>2015</li>
+              </ul>
+            </div>
+            <p class="project-desc">
+              Experimental content creation feature that allows users to add to
+              an existing story over the course of a day without spamming their
+              friends.
+            </p>
+            <ul class="project-lang">
+              <li>html</li>
+              <li>Ruby on rails</li>
+              <li>css</li>
+              <li>javascript</li>
+            </ul>
+            <button class="project-btn" type="button">See Project</button>
+          </div>
         </div>
         <div class="card">
           <figure>
             <img
-              src="assets/images/background_image/second_portfolio.png"
+              src="assets/images/background_image/third_large.png"
               alt="project image"
             />
           </figure>
-          <h2>Multi-Post Stories</h2>
-          <div class="author-lang">
-            <span>CANOPY</span>
-            <ul>
-              <li>Back End Dev</li>
-              <li>2015</li>
+          <div class="card-details">
+            <h2>Facebook 360</h2>
+            <div class="author-lang">
+              <span>FACEBOOK</span>
+              <ul>
+                <li>Full Stack Dev</li>
+                <li>2015</li>
+              </ul>
+            </div>
+            <p class="project-desc">
+              Exploring the future of media in Facebook's first Virtual Reality
+              app; a place to discover and enjoy 360 photos and videos on Gear
+              VR.
+            </p>
+            <ul class="project-lang">
+              <li>html</li>
+              <li>Ruby on rails</li>
+              <li>css</li>
+              <li>javascript</li>
             </ul>
+            <button class="project-btn" type="button">See Project</button>
           </div>
-          <p class="project-desc">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required.
-          </p>
-          <ul class="project-lang">
-            <li>html</li>
-            <li>css</li>
-            <li>javascript</li>
-          </ul>
-          <button class="project-btn" type="button">See Project</button>
         </div>
-        <div class="card">
+        <div class="card reverse">
           <figure>
             <img
-              src="assets/images/background_image/third_portfolio.png"
+              src="assets/images/background_image/fourth_large.png"
               alt="project image"
             />
           </figure>
-          <h2>Tonic</h2>
-          <div class="author-lang">
-            <span>CANOPY</span>
-            <ul>
-              <li>Back End Dev</li>
-              <li>2015</li>
+          <div class="card-details">
+            <h2>Uber Navigation</h2>
+            <div class="author-lang">
+              <span>Uber</span>
+              <ul>
+                <li>Lead Developer</li>
+                <li>2018</li>
+              </ul>
+            </div>
+            <p class="project-desc">
+              A smart assistant to make driving more safe, efficient, and fun by
+              unlocking your most expensive computer: your car.
+            </p>
+            <ul class="project-lang">
+              <li>html</li>
+              <li>Ruby on rails</li>
+              <li>css</li>
+              <li>javascript</li>
             </ul>
+            <button class="project-btn" type="button">See Project</button>
           </div>
-          <p class="project-desc">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required.
-          </p>
-          <ul class="project-lang">
-            <li>html</li>
-            <li>css</li>
-            <li>javascript</li>
-          </ul>
-          <button class="project-btn" type="button">See Project</button>
-        </div>
-        <div class="card">
-          <figure>
-            <img
-              src="assets/images/background_image/fourth_portfolio.png"
-              alt="project image"
-            />
-          </figure>
-          <h2>Multi-Post Stories</h2>
-          <div class="author-lang">
-            <span>CANOPY</span>
-            <ul>
-              <li>Back End Dev</li>
-              <li>2015</li>
-            </ul>
-          </div>
-          <p class="project-desc">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required.
-          </p>
-          <ul class="project-lang">
-            <li>html</li>
-            <li>css</li>
-            <li>javascript</li>
-          </ul>
-          <button class="project-btn" type="button">See Project</button>
         </div>
       </section>
-      <!--end of projects section-->
       <section class="about">
         <div class="about-section limited">
-          <h2>About <br />Myself</h2>
+          <h1>About <br />Myself</h1>
           <p>
             Hello I’m a software developer! I can help you build a product ,
-            feature or website Look through some of my work and experience! If you
-            like what you see and have a project you need coded, don’t hestiate to
-            contact me.
+            feature or website Look through some of my work and experience! If
+            you like what you see and have a project you need coded, don’t
+            hestiate to contact me.
           </p>
           <h4>let's connect</h4>
           <ul>
@@ -272,9 +293,10 @@
                   >
                 </li>
                 <li>
-                  <img src="assets/images/icons/html.png" alt="html image" /><span
-                    >HTML</span
-                  >
+                  <img
+                    src="assets/images/icons/html.png"
+                    alt="html image"
+                  /><span>HTML</span>
                 </li>
                 <li>
                   <img src="assets/images/icons/cs.png" alt="css image" /><span
@@ -296,27 +318,47 @@
           </ul>
         </div>
       </section>
-      <!--end of about section-->
     </main>
-    <!--end of main section-->
-      <footer>
-        <section class="contact-heading">
-          <h2>Contact me</h2>
-          <p>
-            If you have an application you are interested in developing, a feature
-            that you need built or a project that needs coding. I’d love to help
-            with it
-          </p>
-        </section>
-        <section class="contact-form">
-          <form action="https://formspree.io/f/xgerbrnd" method="POST">
-            <input type="text" name="name" id="full-name"  placeholder="Yeremias"  minlength="5" maxlength="30" required />
-            <input type="email" name="email"  id="email" placeholder="natajayanj14@gmail.com"  required />
-            <textarea name="message" id="message" placeholder="Write your message here" minlength="5" maxlength="500" required></textarea>
-            <button class="project-btn" type="submit" id="submit">Get In Touch</button>
-          </form>
-        </section>
-      </footer>
-      <!--end of footer section-->
+    <footer>
+      <section class="contact-heading">
+        <h2>Contact me</h2>
+        <p>
+          If you have an application you are interested in developing, a feature
+          that you need built or a project that needs coding. I’d love to help
+          with it
+        </p>
+      </section>
+      <section class="contact-form">
+        <form action="https://formspree.io/f/xgerbrnd" method="POST">
+          <input
+            type="text"
+            name="name"
+            id="full-name"
+            placeholder="Yeremias"
+            minlength="5"
+            maxlength="30"
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="natajayanj14@gmail.com"
+            required
+          />
+          <textarea
+            name="message"
+            id="message"
+            placeholder="Write your message here"
+            minlength="5"
+            maxlength="500"
+            required
+          ></textarea>
+          <button class="project-btn" type="submit" id="submit">
+            Get In Touch
+          </button>
+        </form>
+      </section>
+    </footer>
   </body>
 </html>
