@@ -1,0 +1,192 @@
+@media (min-width: 1024px) {
+  header nav .desktop-menu ul > li {
+    margin-right: 32px;
+  }
+
+  div.main-container {
+    background: var(--neutral-color-1) url("../images/background_image/Header\ bg.svg") 35px 70px no-repeat;
+    height: 106vh;
+    background-size: 97%;
+    margin: 0;
+    padding: 10px 260px 0;
+  }
+
+  /* Hero Section */
+  header {
+    padding: 26px 132px 26px 155px;
+  }
+
+  .hero-section > h1 {
+    margin: 0;
+    font-size: 48px;
+  }
+
+  .hero-section > p {
+    margin: 12px 0 0 0;
+  }
+
+  .hero-section > h4 {
+    margin: 12px 0 14px;
+  }
+
+  section.hero-section {
+    margin: 289px 0 255px 0;
+  }
+
+  /* Projects Section */
+  section.card-container {
+    margin: 142px 142px 0;
+    gap: 142px 0;
+  }
+
+  section.card-container > div.card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 24px 46px 24px 24px;
+    border-radius: 24px;
+  }
+
+  section.card-container > div.card:hover {
+    border: 2px solid #a7aeff;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 20px 25px -5px, rgba(0, 0, 0, 0.04) 0 10px 10px -5px;
+  }
+
+  section.card-container > div.card:nth-child(even) figure {
+    order: 2;
+  }
+
+  .card-details {
+    margin: 24px 0 0 22px;
+  }
+
+  .card-details > h2 {
+    margin: 0 0 20px;
+    font-size: 40px;
+  }
+
+  button.project-btn {
+    margin-bottom: 116px;
+    padding: 12px;
+  }
+
+  .card-details > p.project-desc {
+    font-size: 16px;
+    margin: 32px 0 24px;
+  }
+
+  .card-details ul.project-lang {
+    margin-bottom: 40px;
+  }
+
+  section.card-container > div.card:nth-child(even) {
+    padding: 24px;
+  }
+
+  section.card-container > div.card:nth-child(even) .card-details {
+    margin: 23px 22px 0 0;
+  }
+
+  section.card-container > div.card:nth-child(even) .card-details .project-btn {
+    margin-bottom: 96px;
+  }
+
+  /* About Section */
+  section.about .about-section {
+    margin: 0 0 0 142px;
+  }
+
+  section.about .languages {
+    margin: 0 142px 44px 25px;
+  }
+
+  .languages > ul > li img {
+    margin-right: 42px;
+  }
+
+  .about-section h1 {
+    font-size: 40px;
+  }
+
+  .about-section > ul {
+    margin-bottom: 34px;
+  }
+
+  .about-section button.project-btn {
+    margin-bottom: 20px;
+  }
+
+  .languages > ul > li:nth-child(3n),
+  .languages > ul > li.dropdown-list {
+    padding-top: 12px;
+  }
+
+  .card-details > div.author-lang span,
+  .card-details > div.author-lang ul li {
+    font-size: 18px;
+  }
+
+  .languages > ul > li.dropdown-list ul {
+    display: grid;
+    grid-template-columns: repeat(3, 33.333333%);
+    width: 80%;
+  }
+
+  .languages > ul > li.dropdown-list ul li {
+    padding: 12px 16px 20px 12px;
+    align-items: flex-start;
+  }
+
+  .languages > ul > li.dropdown-list ul li:first-child {
+    margin-left: 0;
+  }
+
+  .languages > ul > li.dropdown-list ul li img {
+    width: 48px;
+    height: 48px;
+  }
+
+  .languages > ul > li.dropdown-list ul li span {
+    margin: 16px 0 0;
+  }
+
+  .languages > ul > li.divider {
+    padding-top: 0;
+  }
+
+  .languages > ul > li.divider hr {
+    margin: 0;
+  }
+
+  footer {
+    padding: 142px 0 127px;
+    height: 900px;
+  }
+
+  footer .contact-heading {
+    width: 40%;
+  }
+
+  footer .contact-form {
+    width: 32%;
+  }
+
+  .contact-form form {
+    align-items: center;
+  }
+
+  .contact-form form button {
+    padding: 12px 16px;
+    margin-bottom: 127px;
+  }
+
+  footer .contact-heading > p {
+    margin: 12px 0 36px;
+  }
+
+  footer .contact-form form input,
+  footer .contact-form form textarea {
+    margin: 0 0 27px;
+    border-radius: 2px;
+  }
+}
