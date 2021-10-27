@@ -1,9 +1,8 @@
 button.project-btn {
-  max-width: 50%;
   border: 1px solid var(--primary-color-1);
   border-radius: 8px;
   background: var(--neutral-color-1);
-  padding: 10px;
+  padding: 0;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -11,6 +10,8 @@ button.project-btn {
   letter-spacing: 0.03em;
   color: var(--primary-color-4);
   margin-bottom: 28px;
+  height: 48px;
+  width: 124px;
 }
 
 button.project-btn:active {

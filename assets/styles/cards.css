@@ -76,7 +76,7 @@ section.card-container > div.card,
 }
 
 .card-details ul.project-lang > li {
-  padding: 4px 8px;
+  padding: 4px 12px;
   background: var(--primary-color-3);
   border-radius: 8px;
   margin-right: 8px;
@@ -86,6 +86,7 @@ section.card-container > div.card,
   line-height: 16px;
   letter-spacing: 0.03em;
   color: var(--primary-color-1);
+  height: 24px;
 }
 
 .card-details > div.author-lang ul li {

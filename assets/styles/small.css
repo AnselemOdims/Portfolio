@@ -85,6 +85,11 @@ section.hero-section {
   margin-right: 20px;
 }
 
+.about-section > button {
+  width: 162px;
+  height: 48px;
+}
+
 /* Projects Section */
 section.card-container {
   margin-top: 114px;
