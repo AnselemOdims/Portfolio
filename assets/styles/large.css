@@ -46,10 +46,14 @@
     border-radius: 24px;
   }
 
+  section.card-container > div.card figure img:hover {
+    transform: scale(1.02, 1.02);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 20px 25px -5px, rgba(0, 0, 0, 0.04) 0 10px 10px -5px;
+  }
+
   section.card-container > div.card:hover {
     border: 2px solid #a7aeff;
     cursor: pointer;
-    box-shadow: rgba(0, 0, 0, 0.1) 0 20px 25px -5px, rgba(0, 0, 0, 0.04) 0 10px 10px -5px;
   }
 
   section.card-container > div.card:nth-child(even) figure {
