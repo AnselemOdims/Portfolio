@@ -3,6 +3,7 @@ button.project-btn {
   border-radius: 8px;
   background: var(--neutral-color-1);
   padding: 0;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;

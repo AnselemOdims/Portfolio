@@ -1,0 +1,254 @@
+/* Rotate */
+@-moz-keyframes rotate {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes rotate {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+/* Blink */
+@-moz-keyframes blink {
+  0% {
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 0.25;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  75% {
+    opacity: 0.75;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes blink {
+  0% {
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 0.25;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  75% {
+    opacity: 0.75;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 0.25;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  75% {
+    opacity: 0.75;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+/* SlideTop */
+@-moz-keyframes slidetop {
+  from {
+    top: -830px;
+    opacity: 0;
+  }
+
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes slidetop {
+  from {
+    top: -830px;
+    opacity: 0;
+  }
+
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes slidetop {
+  from {
+    top: -830px;
+    opacity: 0;
+  }
+
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+/* SlideExtremeLeft */
+@-moz-keyframes slideextleft {
+  from {
+    right: -800px;
+    opacity: 0;
+  }
+
+  to {
+    right: 0;
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes slideextleft {
+  from {
+    right: -800px;
+    opacity: 0;
+  }
+
+  to {
+    right: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes slideextleft {
+  from {
+    right: -800px;
+    opacity: 0;
+  }
+
+  to {
+    right: 0;
+    opacity: 1;
+  }
+}
+
+/* SlideRight */
+@-moz-keyframes slideright {
+  from {
+    left: -500px;
+    opacity: 0;
+  }
+
+  to {
+    left: 0;
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes slideright {
+  from {
+    left: -500px;
+    opacity: 0;
+  }
+
+  to {
+    left: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes slideright {
+  from {
+    left: -500px;
+    opacity: 0;
+  }
+
+  to {
+    left: 0;
+    opacity: 1;
+  }
+}
+
+header .logo {
+  -webkit-animation: rotate 2s;
+  -moz-animation: rotate 2s;
+  animation: rotate 2s;
+}
+
+header .logo .logo-blink {
+  animation: blink 0.8s linear infinite;
+}
+
+.hero-section > h1 {
+  -webkit-animation: slidetop 3s;
+  animation: slidetop 3s;
+  position: relative;
+}
+
+.hero-section > h4,
+.about-section > h4 {
+  -webkit-animation: slideright 3s;
+  animation: slideright 3s;
+  position: relative;
+}
+
+.hero-section > p {
+  -webkit-animation: slidetop 2s;
+  animation: slidetop 2s;
+  position: relative;
+}
+
+.hero-section > ul,
+.about-section > ul {
+  display: flex;
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  align-items: center;
+  -webkit-animation: slideextleft 2s;
+  animation: slideextleft 2s;
+  position: relative;
+}
+
+header nav .desktop-menu ul > li a {
+  transition-property: color;
+  transition-timing-function: ease-in;
+  transition-duration: 0.3s;
+}
+
+header nav .desktop-menu ul > li a:hover {
+  color: var(--primary-color-1);
+}
+
+button.project-btn {
+  transition-property: background, color;
+  transition-timing-function: ease-in;
+  transition-duration: 400ms;
+}

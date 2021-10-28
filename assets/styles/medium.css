@@ -30,6 +30,10 @@
     padding: 0;
   }
 
+  img.socials:hover {
+    transform: scale(1.3);
+  }
+
   /* Hero Section */
   div.main-container {
     background: var(--neutral-color-1) url("../images/background_image/Header\ bg.svg") 0 100px no-repeat;
