@@ -236,3 +236,13 @@ header .logo .logo-blink {
   animation: slideextleft 2s;
   position: relative;
 }
+
+header nav .desktop-menu ul > li a {
+  transition-property: color;
+  transition-timing-function: ease-in;
+  transition-duration: 0.3s;
+}
+
+header nav .desktop-menu ul > li a:hover {
+  color: var(--primary-color-1);
+}
