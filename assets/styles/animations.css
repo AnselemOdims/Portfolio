@@ -246,3 +246,9 @@ header nav .desktop-menu ul > li a {
 header nav .desktop-menu ul > li a:hover {
   color: var(--primary-color-1);
 }
+
+button.project-btn {
+  transition-property: background, color;
+  transition-timing-function: ease-in;
+  transition-duration: 400ms;
+}
