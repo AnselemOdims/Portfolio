@@ -263,10 +263,6 @@ section.contact-form form input:first-child {
   margin-bottom: 20px;
 }
 
-section.contact-form form input::placeholder {
-  color: #172b4d;
-}
-
 section.contact-form form textarea {
   width: 100%;
   height: 170px;
@@ -281,6 +277,12 @@ section.contact-form form textarea {
   background: var(--neutral-color-1);
 }
 
-section.contact-form form textarea::placeholder {
+section.contact-form form textarea::placeholder,
+section.contact-form form input::placeholder {
   color: #b3bac5;
+  font-family: Poppins, sans-serif;
+}
+
+footer .contact-form form button {
+  width: 140px;
 }
