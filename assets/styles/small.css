@@ -34,8 +34,8 @@ div.main-container {
   flex-direction: column;
   margin: 0;
   background: var(--neutral-color-1) url("../images/background_image/header-shapes\ mobile@4x.svg") 0 10px no-repeat;
-  background-size: 100%, 100%;
-  height: 90vh;
+  background-size: 100%, 90%;
+  height: 95vh;
   border-bottom-left-radius: 100px;
 }
 
@@ -297,7 +297,7 @@ footer .contact-form form button {
 
   div.main-container {
     background-position: 0 40px;
-    height: 80vh;
+    height: 95vh;
   }
 
   .hero-section > h1 {
@@ -328,10 +328,10 @@ footer .contact-form form button {
 
   div.main-container {
     background-position: 0 60px;
-    height: 80vh;
+    height: 100vh;
   }
 
   .hero-section > h1 {
-    margin: 120px 0 14px;
+    margin: 80px 0 14px;
   }
 }
