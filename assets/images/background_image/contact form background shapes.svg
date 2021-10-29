@@ -19,6 +19,7 @@
   }
   100% {
     opacity: 1;
+     fill: #fff
   }
 }
 @-webkit-keyframes blink {
@@ -36,6 +37,7 @@
   }
   100% {
     opacity: 1;
+     fill: #fff
   }
 }
 @keyframes blink {
@@ -53,6 +55,7 @@
   }
   100% {
     opacity: 1;
+    fill: #fff
   }
 }
 </style>
@@ -63,5 +66,5 @@
 <circle cx="34.1975" cy="328.03" r="24" transform="rotate(48.9435 34.1975 328.03)" class="blink" fill="white"/>
 <rect x="262" y="684.347" width="55.6001" height="9.94658" transform="rotate(-23.6989 262 684.347)" fill="white"/>
 <path d="M291.13 683.682C288.986 688.704 288.925 694.372 290.959 699.439C292.994 704.506 296.959 708.558 301.981 710.702C307.002 712.846 312.67 712.907 317.737 710.872C322.805 708.837 326.856 704.873 329 699.851L291.13 683.682Z" fill="#7F8CFF"/>
-<circle cx="1091.5" cy="479.5" r="37.5" fill="#7F8CFF"/>
+<circle cx="1091.5" cy="479.5" r="37.5" class="blink" fill="#7F8CFF"/>
 </svg>

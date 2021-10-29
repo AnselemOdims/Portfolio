@@ -76,7 +76,7 @@ section.card-container > div.card,
 }
 
 .card-details ul.project-lang > li {
-  padding: 4px 12px;
+  padding: 4px 11px;
   background: var(--primary-color-3);
   border-radius: 8px;
   margin-right: 8px;

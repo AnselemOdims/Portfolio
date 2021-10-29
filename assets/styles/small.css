@@ -9,6 +9,7 @@ header {
   background: var(--neutral-color-1);
   align-items: center;
   padding: 24px;
+  z-index: 1;
 }
 
 header .logo a {
@@ -32,9 +33,9 @@ div.main-container {
   display: flex;
   flex-direction: column;
   margin: 0;
-  background: var(--neutral-color-1) url("../images/background_image/header-shapes\ mobile.png") 0 30px no-repeat;
-  background-size: 100% 90%;
-  height: 100vh;
+  background: var(--neutral-color-1) url("../images/background_image/header-shapes\ mobile@4x.svg") 0 10px no-repeat;
+  background-size: 100%, 90%;
+  height: 95vh;
   border-bottom-left-radius: 100px;
 }
 
@@ -285,4 +286,52 @@ section.contact-form form input::placeholder {
 
 footer .contact-form form button {
   width: 140px;
+}
+
+@media (max-width: 360px) {
+  .card-details ul.project-lang > li {
+    padding: 4px 10px;
+    margin-right: 6px;
+    font-size: 12px;
+  }
+
+  div.main-container {
+    background-position: 0 40px;
+    height: 95vh;
+  }
+
+  .hero-section > h1 {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .card-details ul.project-lang > li {
+    padding: 4px 5px;
+    margin-right: 6px;
+    font-size: 8px;
+  }
+
+  .card-details > div.author-lang ul li {
+    font-size: 10px;
+  }
+
+  .card-details > div.author-lang ul li::before {
+    margin: 0 6px;
+    width: 5px;
+    height: 5px;
+  }
+
+  section.hero-section {
+    margin-top: 0;
+  }
+
+  div.main-container {
+    background-position: 0 60px;
+    height: 100vh;
+  }
+
+  .hero-section > h1 {
+    margin: 80px 0 14px;
+  }
 }
