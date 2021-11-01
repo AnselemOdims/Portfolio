@@ -16,7 +16,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://anselemodims.github.io/Portfolio/)
+[View Live Demo](https://anselemodims.github.io/Portfolio/)
 
 ## Getting Started
 
