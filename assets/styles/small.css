@@ -58,7 +58,7 @@ section.hero-section {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: var(--primary-color-2);
+  color: var(--primary-color-1);
   text-transform: uppercase;
   margin: 14px 0;
 }
@@ -236,7 +236,7 @@ section.contact-heading > p {
   font-weight: normal;
   font-size: 20px;
   line-height: 28px;
-  color: var(--primary-color-3);
+  color: var(--neutral-color-1);
   text-align: center;
 }
 
