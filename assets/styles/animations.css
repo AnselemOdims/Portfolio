@@ -212,8 +212,8 @@ header .logo .logo-blink {
   position: relative;
 }
 
-.hero-section > h4,
-.about-section > h4 {
+.hero-section > span,
+.about-section > span {
   -webkit-animation: slideright 3s;
   animation: slideright 3s;
   position: relative;

@@ -52,8 +52,8 @@ section.hero-section {
   color: var(--accent-color-1);
 }
 
-.hero-section > h4,
-.about-section > h4 {
+.hero-section > span,
+.about-section > span {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -75,7 +75,7 @@ section.hero-section {
 .hero-section > ul,
 .about-section > ul {
   display: flex;
-  margin: 0;
+  margin: 14px 0 0 0;
   list-style: none;
   padding: 0;
   align-items: center;

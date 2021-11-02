@@ -22,10 +22,10 @@
   }
 
   .hero-section > p {
-    margin: 12px 0 0 0;
+    margin: 12px 0;
   }
 
-  .hero-section > h4 {
+  .hero-section > span {
     margin: 12px 0 14px;
   }
 
