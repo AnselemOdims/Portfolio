@@ -212,8 +212,8 @@ header .logo .logo-blink {
   position: relative;
 }
 
-.hero-section > h4,
-.about-section > h4 {
+.hero-section > span,
+.about-section > span {
   -webkit-animation: slideright 3s;
   animation: slideright 3s;
   position: relative;
@@ -241,6 +241,10 @@ header nav .desktop-menu ul > li a {
   transition-property: color;
   transition-timing-function: ease-in;
   transition-duration: 0.3s;
+}
+
+header nav .desktop-menu ul > li a:visited {
+  color: unset;
 }
 
 header nav .desktop-menu ul > li a:hover {

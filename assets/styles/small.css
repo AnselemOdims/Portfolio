@@ -1,3 +1,4 @@
+
 /* Header Section */
 .limited {
   margin: 24px;
@@ -52,13 +53,13 @@ section.hero-section {
   color: var(--accent-color-1);
 }
 
-.hero-section > h4,
-.about-section > h4 {
+.hero-section > span,
+.about-section > span {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: var(--primary-color-2);
+  color: var(--primary-color-1);
   text-transform: uppercase;
   margin: 14px 0;
 }
@@ -75,7 +76,7 @@ section.hero-section {
 .hero-section > ul,
 .about-section > ul {
   display: flex;
-  margin: 0;
+  margin: 14px 0 0 0;
   list-style: none;
   padding: 0;
   align-items: center;
@@ -236,7 +237,7 @@ section.contact-heading > p {
   font-weight: normal;
   font-size: 20px;
   line-height: 28px;
-  color: var(--primary-color-3);
+  color: var(--neutral-color-1);
   text-align: center;
 }
 
@@ -260,7 +261,7 @@ section.contact-form form input {
   line-height: 20px;
 }
 
-section.contact-form form input:first-child {
+section.contact-form form input[type="text"] {
   margin-bottom: 20px;
 }
 
@@ -290,8 +291,8 @@ footer .contact-form form button {
 
 @media (max-width: 360px) {
   .card-details ul.project-lang > li {
-    padding: 4px 10px;
-    margin-right: 6px;
+    padding: 4px 3px;
+    margin-right: 4px;
     font-size: 12px;
   }
 

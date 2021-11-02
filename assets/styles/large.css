@@ -22,10 +22,10 @@
   }
 
   .hero-section > p {
-    margin: 12px 0 0 0;
+    margin: 12px 0;
   }
 
-  .hero-section > h4 {
+  .hero-section > span {
     margin: 12px 0 14px;
   }
 
@@ -139,11 +139,6 @@
     margin-left: 0;
   }
 
-  .languages > ul > li.dropdown-list ul li img {
-    width: 48px;
-    height: 48px;
-  }
-
   .languages > ul > li.dropdown-list ul li span {
     margin: 16px 0 0;
   }
@@ -154,6 +149,15 @@
 
   .languages > ul > li.divider hr {
     margin: 0;
+  }
+
+  section.card-container > div.card figure img {
+    transition: transform 0.7s;
+  }
+
+  .languages > ul > li.dropdown-list ul li img {
+    width: 48px;
+    height: 48px;
   }
 
   section.card-container > div.card figure img:hover {

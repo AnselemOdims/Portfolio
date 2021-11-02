@@ -4,17 +4,40 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home | Anselem's Portfolio</title>
+    <title>Anselem's Portfolio</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/images/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/images/icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/images/icons/favicon-16x16.png"
+    />
+
     <link href="assets/styles/styles.css" rel="stylesheet" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-7LNJ1YVVC1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-7LNJ1YVVC1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  gtag('config', 'G-7LNJ1YVVC1');
-</script>
+      gtag("config", "G-7LNJ1YVVC1");
+    </script>
   </head>
   <body>
     <header>
@@ -27,9 +50,9 @@
         </div>
         <div class="desktop-menu">
           <ul>
-            <li><a>Portfolio</a></li>
-            <li><a>About</a></li>
-            <li><a>Contact</a></li>
+            <li><a href="#projects">Portfolio</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
       </nav>
@@ -45,7 +68,7 @@
             what you see and have a project you need coded, don’t hestiate to
             contact me.
           </p>
-          <h4>let's connect</h4>
+          <span>let's connect</span>
           <ul>
             <li>
               <a href="#"
@@ -100,13 +123,13 @@
           </ul>
         </section>
       </div>
-      <!---end of main section-->
-      <section class="card-container limited">
+      <!---end of hero section-->
+      <section class="card-container limited" id="projects">
         <div class="card">
           <figure>
             <img
               src="assets/images/background_image/first_large.png"
-              alt="project image"
+              alt="Tonic project screenshot"
             />
           </figure>
           <div class="card-details">
@@ -134,7 +157,7 @@
           <figure>
             <img
               src="assets/images/background_image/second_large.png"
-              alt="project image"
+              alt="Stories project screenshot"
             />
           </figure>
           <div class="card-details">
@@ -164,7 +187,7 @@
           <figure>
             <img
               src="assets/images/background_image/third_large.png"
-              alt="project image"
+              alt="Facebook project screenshot"
             />
           </figure>
           <div class="card-details">
@@ -194,7 +217,7 @@
           <figure>
             <img
               src="assets/images/background_image/fourth_large.png"
-              alt="project image"
+              alt="Uber project screenshot"
             />
           </figure>
           <div class="card-details">
@@ -220,7 +243,8 @@
           </div>
         </div>
       </section>
-      <section class="about">
+      <!--end of the projects section-->
+      <section class="about" id="about">
         <div class="about-section limited">
           <h1>About <br />Myself</h1>
           <p>
@@ -229,7 +253,7 @@
             you like what you see and have a project you need coded, don’t
             hestiate to contact me.
           </p>
-          <h4>let's connect</h4>
+          <span>let's connect</span>
           <ul>
             <li>
               <a
@@ -290,16 +314,17 @@
               <span>Languages</span
               ><img
                 src="assets/images/icons/arrow.svg"
-                alt="arrow image"
+                alt="arrow icon"
                 class="clicked"
               />
             </li>
             <li class="dropdown-list">
               <ul>
                 <li>
-                  <img src="assets/images/icons/js.png" alt="js image" /><span
-                    >Javascript</span
-                  >
+                  <img
+                    src="assets/images/icons/js.png"
+                    alt="javascript icon"
+                  /><span>Javascript</span>
                 </li>
                 <li>
                   <img
@@ -308,7 +333,7 @@
                   /><span>HTML</span>
                 </li>
                 <li>
-                  <img src="assets/images/icons/cs.png" alt="css image" /><span
+                  <img src="assets/images/icons/cs.png" alt="css icon" /><span
                     >CSS</span
                   >
                 </li>
@@ -316,12 +341,12 @@
             </li>
             <li>
               <span>Frameworks</span
-              ><img src="assets/images/icons/arrow.svg" alt="arrow image" />
+              ><img src="assets/images/icons/arrow.svg" alt="arrow icon" />
             </li>
             <li class="divider"><hr /></li>
             <li>
               <span>Skills</span
-              ><img src="assets/images/icons/arrow.svg" alt="arrow image" />
+              ><img src="assets/images/icons/arrow.svg" alt="arrow icon" />
             </li>
             <li class="divider"><hr /></li>
           </ul>
@@ -329,7 +354,7 @@
       </section>
     </main>
     <footer>
-      <section class="contact-heading">
+      <section class="contact-heading" id="contact">
         <h2>Contact me</h2>
         <p>
           If you have an application you are interested in developing, a feature
@@ -339,15 +364,17 @@
       </section>
       <section class="contact-form">
         <form action="https://formspree.io/f/xgerbrnd" method="POST">
+          <label for="name"></label>
           <input
             type="text"
             name="name"
-            id="full-name"
+            id="name"
             placeholder="Full Name"
             minlength="5"
             maxlength="30"
             required
           />
+          <label for="email"></label>
           <input
             type="email"
             name="email"
@@ -355,6 +382,7 @@
             placeholder="Email"
             required
           />
+          <label for="message"></label>
           <textarea
             name="message"
             id="message"
