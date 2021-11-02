@@ -87,7 +87,7 @@
 <rect x="0.601562" y="99.9232" width="108.669" height="19.4403" transform="rotate(-46.1415 0.601562 99.9232)" fill="#EBEBFF"/>
 <circle cx="828.5" cy="662.5" r="23.5" class="blink" fill="#1028fe"/>
 <circle cx="685.5" cy="149.5" r="11.5"  class="blink" fill="#EBEBFF"/>
-<circle cx="1177.5" cy="562.5" r="37"   fill="#6070FF" stroke="#EBEBFF"/>
+<circle cx="1177.5" cy="562.5" r="37"   fill="#1028fe" stroke="#EBEBFF"/>
 <circle r="19" transform="matrix(1 0 0 -1 950.5 53.5)" fill="#1028fe"  class="path" stroke="#EBEBFF"/>
 <circle cx="352.5" cy="53.5" r="7" fill="#1028fe"  stroke="#EBEBFF"/>
 <circle r="11" transform="matrix(1 0 0 -1 50.5 404.5)" fill="#1028fe"   stroke="#EBEBFF"/>
