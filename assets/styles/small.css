@@ -260,7 +260,7 @@ section.contact-form form input {
   line-height: 20px;
 }
 
-section.contact-form form input:first-child {
+section.contact-form form input[type="text"] {
   margin-bottom: 20px;
 }
 

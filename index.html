@@ -340,15 +340,17 @@
       </section>
       <section class="contact-form">
         <form action="https://formspree.io/f/xgerbrnd" method="POST">
+          <label for="name"></label>
           <input
             type="text"
             name="name"
-            id="full-name"
+            id="name"
             placeholder="Full Name"
             minlength="5"
             maxlength="30"
             required
           />
+          <label for="email"></label>
           <input
             type="email"
             name="email"
@@ -356,6 +358,7 @@
             placeholder="Email"
             required
           />
+          <label for="message"></label>
           <textarea
             name="message"
             id="message"
