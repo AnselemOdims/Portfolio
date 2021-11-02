@@ -290,8 +290,8 @@ footer .contact-form form button {
 
 @media (max-width: 360px) {
   .card-details ul.project-lang > li {
-    padding: 4px 10px;
-    margin-right: 6px;
+    padding: 4px 3px;
+    margin-right: 4px;
     font-size: 12px;
   }
 
