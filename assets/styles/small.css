@@ -36,13 +36,13 @@ header nav .hamburger-mobile-menu {
   transition: left ease-out 0.6s 0.05s;
 }
 
-header nav .hamburger-mobile-menu.show {
-  left: 0;
-}
-
 header nav .hamburger-mobile-menu .close {
   position: absolute;
   right: 22px;
+}
+
+header nav .hamburger-mobile-menu .close img {
+  width: 24px;
 }
 
 header nav .hamburger-mobile-menu > ul {
