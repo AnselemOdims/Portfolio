@@ -237,18 +237,17 @@ header .logo .logo-blink {
   position: relative;
 }
 
-header nav .desktop-menu ul > li a {
-  transition-property: color;
-  transition-timing-function: ease-in;
-  transition-duration: 0.3s;
+header nav .desktop-menu ul > li {
+  transition: border-bottom ease-in 0.5s;
 }
 
 header nav .desktop-menu ul > li a:visited {
   color: unset;
 }
 
-header nav .desktop-menu ul > li a:hover {
+header nav .desktop-menu ul > li:hover {
   color: var(--primary-color-1);
+  border-bottom: solid 2px var(--primary-color-1);
 }
 
 button.project-btn {

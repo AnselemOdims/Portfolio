@@ -36,33 +36,6 @@ header nav .hamburger-mobile-menu {
   transition: left ease-out 0.6s 0.05s;
 }
 
-header nav .hamburger-mobile-menu .close {
-  position: absolute;
-  right: 22px;
-}
-
-header nav .hamburger-mobile-menu .close img {
-  width: 24px;
-}
-
-header nav .hamburger-mobile-menu > ul {
-  list-style: none;
-  margin-top: 46px;
-}
-
-header nav .hamburger-mobile-menu > ul li {
-  margin-bottom: 40px;
-}
-
-header nav .hamburger-mobile-menu > ul > li a {
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 38px;
-  line-height: 44px;
-  color: var(--neutral-color-1);
-}
-
 header nav .desktop-menu {
   display: none;
 }
@@ -244,6 +217,33 @@ li.dropdown-list ul li span {
   font-size: 15px;
   line-height: 20px;
   color: #253858;
+}
+
+header nav .hamburger-mobile-menu .close {
+  position: absolute;
+  right: 22px;
+}
+
+header nav .hamburger-mobile-menu .close img {
+  width: 24px;
+}
+
+header nav .hamburger-mobile-menu > ul {
+  list-style: none;
+  margin-top: 46px;
+}
+
+header nav .hamburger-mobile-menu > ul li {
+  margin-bottom: 40px;
+}
+
+header nav .hamburger-mobile-menu > ul > li a {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 44px;
+  color: var(--neutral-color-1);
 }
 
 /* Footer Section */

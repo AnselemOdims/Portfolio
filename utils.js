@@ -1,7 +1,7 @@
 import helperFunc from './helpers.js';
 
 export const hamburger = document.querySelector('.toggle');
-// export const btns = document.querySelectorAll(".btn");
+const navList = document.querySelectorAll('.nav-list');
 export const dropDown = document.querySelector('lang-dropdown');
 const navMenu = document.querySelector('header > nav > .hamburger');
 
@@ -19,10 +19,10 @@ export const clickHandler = (e) => {
         <div class="close">
           <img src="assets/images/icons/close_white.svg" />
         </div>
-        <ul>
-          <li><a>Portfolio</a></li>
-          <li><a>About</a></li>
-          <li><a>Contact</a></li>
+        <ul class="ulList">
+          <li><a href="#projects">Portfolio</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
     `,
@@ -31,4 +31,19 @@ export const clickHandler = (e) => {
   helperFunc('blur(15px)', menuList, 'none', 0);
   const closer = document.querySelector('.close');
   closer.addEventListener('click', () => helperFunc('blur(0)', menuList, 'block', '770px'));
+  const ulList = Array.from(document.querySelectorAll('.ulList li'));
+
+  ulList.forEach((list) => {
+    list.addEventListener('click', () => {
+      helperFunc('blur(0)', menuList, 'block', '770px');
+    });
+  });
 };
+
+// nav list active toggle
+navList.forEach((item) => {
+  item.addEventListener('click', (e) => {
+    document.querySelector('.nav-list.active').classList.remove('active');
+    e.currentTarget.classList.add('active');
+  });
+});
