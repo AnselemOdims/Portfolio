@@ -21,6 +21,48 @@ header .logo a {
   color: var(--primary-color-1);
 }
 
+header nav .hamburger-mobile-menu {
+  position: fixed;
+  z-index: 1;
+  background-color: var(--primary-color-1);
+  overflow: auto;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 770px;
+  bottom: 0;
+  padding: 62px 16px 50px;
+  mix-blend-mode: multiply;
+  transition: left ease-out 0.6s 0.05s;
+}
+
+header nav .hamburger-mobile-menu.show {
+  left: 0;
+}
+
+header nav .hamburger-mobile-menu .close {
+  position: absolute;
+  right: 22px;
+}
+
+header nav .hamburger-mobile-menu > ul {
+  list-style: none;
+  margin-top: 46px;
+}
+
+header nav .hamburger-mobile-menu > ul li {
+  margin-bottom: 40px;
+}
+
+header nav .hamburger-mobile-menu > ul > li a {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 44px;
+  color: var(--neutral-color-1);
+}
+
 header nav .desktop-menu {
   display: none;
 }
@@ -28,6 +70,7 @@ header nav .desktop-menu {
 /* Hero Section  & About Section */
 main {
   background-color: var(--neutral-color-2);
+  transition: filter ease-in 0.15s 0.1s;
 }
 
 div.main-container {
