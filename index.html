@@ -42,17 +42,17 @@
   <body>
     <header>
       <div class="logo">
-        <a href="#">Anse<span class="logo-blink">_</span>Dev</a>
+        <a href="#" class="hide">Anse<span class="logo-blink">_</span>Dev</a>
       </div>
       <nav>
         <div class="hamburger">
-          <img src="assets/images/icons/Union.svg" alt="hamburger image" />
+          <img src="assets/images/icons/Union.svg" alt="hamburger image" class="toggle hide" />
         </div>
         <div class="desktop-menu">
           <ul>
-            <li><a href="#projects">Portfolio</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li class="nav-list active"><a href="#projects">Portfolio</a></li>
+            <li class="nav-list"><a href="#about">About</a></li>
+            <li class="nav-list"><a href="#contact">Contact</a></li>
           </ul>
         </div>
       </nav>
@@ -397,5 +397,6 @@
         </form>
       </section>
     </footer>
+    <script src="main.js" type="module"></script>
   </body>
 </html>

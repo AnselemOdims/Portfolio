@@ -30,6 +30,11 @@
     padding: 0;
   }
 
+  header nav .desktop-menu ul li.active {
+    border-bottom: solid 2px var(--primary-color-1);
+    color: var(--primary-color-1);
+  }
+
   img.socials:hover {
     transform: scale(1.3);
   }
@@ -115,6 +120,10 @@
 
   li.dropdown-list ul li span {
     margin: 0;
+  }
+
+  header nav .desktop-menu ul li {
+    padding-bottom: 5px;
   }
 
   /* Footer Section */
