@@ -1,9 +1,10 @@
-import helperFunc from './helpers.js';
+import { helperFunc } from './helpers.js';
 import cardModel from '../model/cardModel.js';
 
 export const hamburger = document.querySelector('.toggle');
 export const navList = document.querySelectorAll('.nav-list');
 export const dropDown = document.querySelector('lang-dropdown');
+export const btns = document.querySelectorAll('.btn');
 const navMenu = document.querySelector('header > nav > .hamburger');
 
 /**
