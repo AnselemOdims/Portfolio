@@ -1,4 +1,5 @@
 import helperFunc from './helpers.js';
+import cardModel from '../model/cardModel.js';
 
 export const hamburger = document.querySelector('.toggle');
 export const navList = document.querySelectorAll('.nav-list');
