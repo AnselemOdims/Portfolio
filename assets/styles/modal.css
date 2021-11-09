@@ -1,0 +1,191 @@
+/* Modal */
+
+section.modal {
+  position: fixed;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.4);
+  overflow: auto;
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  padding: 60px 16px 50px;
+  transition: top ease-in-out 0.5s 0.1s;
+}
+
+section.modal.close {
+  position: relative;
+  top: -1000px;
+  -webkit-animation-name: slidetop;
+  -webkit-animation-duration: 1s;
+  animation-name: slidetop;
+  animation-duration: 1s;
+}
+
+section.modal > .modal-card {
+  position: relative;
+  padding: 18px 16px 20px;
+  -webkit-animation-name: slidetop;
+  -webkit-animation-duration: 1s;
+  animation-name: slidetop;
+  animation-duration: 1s;
+}
+
+.modal-card > p {
+  margin: 12px 0;
+}
+
+.modal-card > .card-details header {
+  align-items: center;
+  margin: 2px 0 22px;
+  padding: 0;
+  position: unset;
+}
+
+.modal-card > .card-details header h2 {
+  margin: 0;
+}
+
+.modal-card > .card-details header img {
+  cursor: pointer;
+  width: 20px;
+}
+
+.modal-card > .card-details > div.author-lang {
+  margin: 0 0 20px;
+}
+
+.modal-card > .card-details > figure {
+  margin: 0;
+}
+
+.modal-card > .card-details > figure > img {
+  width: 100%;
+}
+
+.modal-card > .card-details > .card-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-card > .card-details > .card-flex > p.project-desc {
+  margin: 12px 0;
+}
+
+.modal-card > .card-details > ul.project-lang {
+  margin-bottom: 20px;
+}
+
+.modal-card > .card-details hr {
+  width: 100%;
+  border: none;
+  border-top: 2px solid #ebecf0;
+  margin: 0 0 25px;
+}
+
+.modal-card > .card-details .action-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.modal-card > .card-details .action-btn > button {
+  padding: 8px;
+  width: 146px;
+  margin-bottom: 4px;
+  height: 48px;
+}
+
+.modal-card > .card-details .action-btn button:first-child {
+  margin-right: 12px;
+}
+
+.modal-card .action-btn button a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+}
+
+.modal-card .action-btn button a:visited {
+  color: var(--primary-color-1);
+}
+
+.modal-card .action-btn button a img {
+  margin-left: 14px;
+}
+
+@media (min-width: 600px) {
+  section.modal {
+    padding: 8% 20%;
+  }
+
+  .modal-card > .card-details {
+    margin: 0;
+  }
+
+  .modal-card > .card-details header {
+    margin: 2px 0 0;
+  }
+}
+
+@media (min-width: 1023px) {
+  section.modal {
+    padding: 10% 10%;
+  }
+
+  section.modal > .modal-card {
+    padding: 18px 16px 40px;
+  }
+
+  .modal-card > .card-details hr {
+    display: none;
+  }
+
+  .modal-card > .card-details > figure {
+    height: 80%;
+  }
+
+  .modal-card > .card-details > figure > img {
+    height: 100%;
+  }
+
+  .modal-card > .card-details > .card-flex {
+    flex-direction: row;
+    margin-top: -100px;
+  }
+
+  .modal-card > .card-details > .card-flex > p.project-desc {
+    margin: 0;
+    width: 50%;
+    margin-right: 10px;
+  }
+}
+
+@media (min-width: 1200px) {
+  section.modal {
+    padding: 2% 20%;
+  }
+
+  .modal-card > .card-details > figure {
+    height: 90%;
+  }
+
+  .modal-card > .card-details > .card-flex {
+    flex-direction: row;
+    margin-top: -30px;
+  }
+}
+
+@media (max-width: 359px) {
+  .modal-card .action-btn button a {
+    font-size: 9px;
+  }
+
+  .modal-card .action-btn button a img {
+    width: 13px;
+  }
+}
