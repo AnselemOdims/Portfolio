@@ -155,7 +155,7 @@ section.modal > .modal-card {
 
   .modal-card > .card-details > .card-flex {
     flex-direction: row;
-    margin-top: -60px;
+    margin-top: -100px;
   }
 
   .modal-card > .card-details > .card-flex > p.project-desc {
@@ -177,5 +177,14 @@ section.modal > .modal-card {
   .modal-card > .card-details > .card-flex {
     flex-direction: row;
     margin-top: -30px;
+  }
+}
+
+@media (max-width: 359px) {
+  .modal-card .action-btn button a {
+    font-size: 9px;
+  }
+  .modal-card .action-btn button a img {
+    width: 13px;
   }
 }

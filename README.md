@@ -6,8 +6,11 @@
 
 ![screenshot](assets/images/screenshot/Portfolio-1.png)
 
-
+### Hamburger menu
 ![screenshot](assets/images/screenshot/hamburger.png)
+
+### Modal PopUp
+![screenshot](assets/images/screenshot/modal.png)
 
 Additional description about the project and its features.
 
