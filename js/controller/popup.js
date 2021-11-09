@@ -27,7 +27,7 @@ export default function modalHandler(e) {
   <div class="card-details">
   <header>
     <h2>${header}</h2>
-    <img src="assets/images/icons/close_white.svg" alt="close icon" id="closeImg"/>
+    <img src="assets/images/icons/close_black.svg" alt="close icon" id="closeImg"/>
   </header>
   <div class="author-lang">
     <span>${authorLang}</span>
