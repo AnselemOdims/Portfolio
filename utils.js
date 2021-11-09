@@ -1,7 +1,7 @@
 import helperFunc from './helpers.js';
 
 export const hamburger = document.querySelector('.toggle');
-const navList = document.querySelectorAll('.nav-list');
+export const navList = document.querySelectorAll('.nav-list');
 export const dropDown = document.querySelector('lang-dropdown');
 const navMenu = document.querySelector('header > nav > .hamburger');
 
@@ -41,9 +41,7 @@ export const clickHandler = (e) => {
 };
 
 // nav list active toggle
-navList.forEach((item) => {
-  item.addEventListener('click', (e) => {
-    document.querySelector('.nav-list.active').classList.remove('active');
-    e.currentTarget.classList.add('active');
-  });
-});
+export const activeHandler = (e) => {
+  document.querySelector('.nav-list.active').classList.remove('active');
+  e.currentTarget.classList.add('active');
+};
