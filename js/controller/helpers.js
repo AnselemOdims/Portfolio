@@ -1,6 +1,13 @@
 const main = document.querySelector('main');
 const hide = document.querySelectorAll('.hide');
 
+/**
+ *@function {helperFunc} helperFunc
+ * @param {string} blur The blur filter
+ * @param {HTMLElement} list The list or element to apply style to
+ * @param {string } display The display value of the hide element
+ * @param {string} left  The left position
+ */
 export const helperFunc = (blur, list, display, left) => {
   main.style.filter = blur;
   hide.forEach((el) => {

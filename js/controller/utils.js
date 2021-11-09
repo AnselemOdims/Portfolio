@@ -1,5 +1,4 @@
 import { helperFunc } from './helpers.js';
-import cardModel from '../model/cardModel.js';
 
 export const hamburger = document.querySelector('.toggle');
 export const navList = document.querySelectorAll('.nav-list');
@@ -8,6 +7,7 @@ export const btns = document.querySelectorAll('.btn');
 const navMenu = document.querySelector('header > nav > .hamburger');
 
 /**
+ *
  * @function {clickHandler}
  * @param {click} e
  * @description handles the opening and closing of the hamburger mobile menu

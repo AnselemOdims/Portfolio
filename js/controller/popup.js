@@ -2,6 +2,7 @@ import cardModel from '../model/cardModel.js';
 import { findItem } from './helpers.js';
 
 /**
+ *
  * @function modalHandler
  * @param {event} e
  * @description {handles modal popup}
