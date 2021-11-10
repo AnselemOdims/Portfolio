@@ -116,3 +116,13 @@ export const blurHandler = (e) => {
     show(classes, 'success', 'error');
   }
 };
+
+export const autoFill = () => {
+  const data = JSON.parse(localStorage.getItem('data'));
+  if(data){
+    const {name, email } = data
+    inputs[0].value = name;
+    inputs[1].value = email;
+  }
+}
+

@@ -24,3 +24,6 @@ inputs.forEach((input) => {
 });
 
 form.addEventListener('submit', formHandler);
+
+autoFill()
+
