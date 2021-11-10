@@ -87,7 +87,7 @@ export const formHandler = (e) => {
     showErr('Email should contain only lowercase characters');
   } else if (message === '' || message.length < 5) {
     e.preventDefault();
-    showErr('Message should not be empty');
+    showErr('Message should not be empty or less than 5 characters');
   } else {
     storageHandler(name, email, message);
     showSuccess(small);
@@ -117,12 +117,15 @@ export const blurHandler = (e) => {
   }
 };
 
+/**
+ * @function autoFIll Handles the auto filling of the inputs with available data in local storage
+ */
 export const autoFill = () => {
   const data = JSON.parse(localStorage.getItem('data'));
-  if(data){
-    const {name, email } = data
+  if (data) {
+    const { name, email, message } = data;
     inputs[0].value = name;
     inputs[1].value = email;
+    inputs[2].value = message;
   }
-}
-
+};
