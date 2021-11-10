@@ -1,6 +1,6 @@
 const main = document.querySelector('main');
 const hide = document.querySelectorAll('.hide');
-export const inputs = document.querySelectorAll('input');
+export const inputs = document.querySelectorAll('input, textarea');
 export const form = document.querySelector('.contact-form form');
 const small = document.querySelector('small');
 
@@ -65,14 +65,18 @@ const re = /[A-Z]/g;
  * @param {event} e The event object
  */
 export const formHandler = (e) => {
-  const [name, email] = [inputs[0].value.trim(), inputs[1].value.trim()];
+  const [name, email, message] = [
+    inputs[0].value.trim(), inputs[1].value.trim(), form.elements[2].value.trim(),
+  ];
   if (name === '' || name.length < 5) {
     e.preventDefault();
     showErr('Name should be at least 5 characters long');
   } else if (email === '' || /[A-Z]/.test(email)) {
     e.preventDefault();
     showErr('Email should contain only lowercase characters');
-    inputs[1].value = email.toLowerCase();
+  } else if (message === '' || message.length < 5) {
+    e.preventDefault();
+    showErr('Message should not be empty');
   } else {
     showSuccess(small);
     form.submit();
@@ -89,9 +93,12 @@ export const blurHandler = (e) => {
     e.currentTarget.value,
     e.currentTarget.classList,
   ];
+
   if ((target === 'text' && value.length < 5) || value === '') {
     show(classes, 'error', 'success');
   } else if ((target === 'email' && re.test(value)) || value === '') {
+    show(classes, 'error', 'success');
+  } else if (target === 'textarea' && (value === '' || value.length < 5)) {
     show(classes, 'error', 'success');
   } else {
     show(classes, 'success', 'error');

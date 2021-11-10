@@ -379,3 +379,23 @@ footer .contact-form form button {
     margin: 80px 0 14px;
   }
 }
+
+section.contact-form form input.error,
+section.contact-form form textarea.error {
+  border: 3px solid #ca0d03;
+}
+
+section.contact-form form input.success,
+section.contact-form form textarea.success {
+  border: 3px solid rgb(3, 240, 3);
+}
+
+small {
+  color: #ca0d03;
+  margin: 10px 0;
+  font-size: 17px;
+  background: var(--neutral-color-7);
+  text-align: start;
+  padding: 0 13px;
+  border-radius: 5px;
+}
