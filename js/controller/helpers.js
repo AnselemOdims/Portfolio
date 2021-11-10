@@ -20,3 +20,16 @@ export const findItem = (target, model) => {
   const { btnId } = target.dataset;
   return model.find((elem) => elem.id === parseInt(btnId, 10));
 };
+
+export const showErr = (message) => {
+  document.querySelector('small').innerText = message;
+};
+
+export const showSuccess = (small) => {
+  small.innerHTML = '';
+};
+
+export const show = (classes, error, success) => {
+  classes.remove(success);
+  classes.add(error);
+};
