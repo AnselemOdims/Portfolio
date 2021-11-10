@@ -57,6 +57,17 @@ export const show = (classes, error, success) => {
   classes.add(error);
 };
 
+/**
+ *
+ * @param {name} name The value of the name input
+ * @param {email} email The value of the email input
+ * @param {message} message The value of the message input
+ */
+const storageHandler = (name, email, message) => {
+  const data = JSON.stringify({ name, email, message });
+  localStorage.setItem('data', data);
+};
+
 // Regex to check if the input include a uppercase case letter
 const re = /[A-Z]/g;
 
@@ -76,8 +87,9 @@ export const formHandler = (e) => {
     showErr('Email should contain only lowercase characters');
   } else if (message === '' || message.length < 5) {
     e.preventDefault();
-    showErr('Message should not be empty');
+    showErr('Message should not be empty or less than 5 characters');
   } else {
+    storageHandler(name, email, message);
     showSuccess(small);
     form.submit();
   }
@@ -102,5 +114,18 @@ export const blurHandler = (e) => {
     show(classes, 'error', 'success');
   } else {
     show(classes, 'success', 'error');
+  }
+};
+
+/**
+ * @function autoFIll Handles the auto filling of the inputs with available data in local storage
+ */
+export const autoFill = () => {
+  const data = JSON.parse(localStorage.getItem('data'));
+  if (data) {
+    const { name, email, message } = data;
+    inputs[0].value = name;
+    inputs[1].value = email;
+    inputs[2].value = message;
   }
 };
