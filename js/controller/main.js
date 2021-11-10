@@ -8,6 +8,8 @@ import {
 
 import modalHandler from './popup.js';
 
+import { inputs, formHandler, form, blurHandler } from "./helpers.js";
+
 // hamburger toggle
 hamburger.addEventListener('click', clickHandler);
 
@@ -18,3 +20,9 @@ navList.forEach((item) => {
 
 // handle button click for modal popup
 btns.forEach((btn) => btn.addEventListener('click', modalHandler));
+
+for(let input of inputs){
+  input.addEventListener('blur', blurHandler);
+}
+
+form.addEventListener('submit', formHandler)
