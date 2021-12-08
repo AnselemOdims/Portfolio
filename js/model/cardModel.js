@@ -11,7 +11,7 @@ export default [
     langList1: 'html',
     langList2: 'scss',
     langList3: 'javascript',
-    link1: '',
+    link1: 'https://anselemodims.github.io/CryptoFest/',
     link2: 'https://github.com/AnselemOdims/Portfolio',
   },
   {

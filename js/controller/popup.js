@@ -57,7 +57,7 @@ export default function modalHandler(e) {
   <hr />
   <div class="action-btn">
     <button class="project-btn" type="button">
-      <a href="" target="_blank">See live <img src="assets/images/icons/live.svg" /></a>
+      <a href=${link1} target="_blank">See live <img src="assets/images/icons/live.svg" /></a>
     </button>
     <button class="project-btn" type="button">
       <a href=${link2} target="_blank">See Source <img src="assets/images/icons/git.svg" /></a>
