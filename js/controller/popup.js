@@ -20,6 +20,8 @@ export default function modalHandler(e) {
     langList2,
     langList3,
     langList4,
+    link1,
+    link2,
   } = card;
   const modal = document.createElement('section');
   modal.className = 'modal';
@@ -55,10 +57,10 @@ export default function modalHandler(e) {
   <hr />
   <div class="action-btn">
     <button class="project-btn" type="button">
-      <a href="https://github.com/AnselemOdims/Portfolio" target="_blank">See live <img src="assets/images/icons/live.svg" /></a>
+      <a href=${link1} target="_blank">See live <img src="assets/images/icons/live.svg" /></a>
     </button>
     <button class="project-btn" type="button">
-      <a href="https://github.com/AnselemOdims/Portfolio" target="_blank">See Source <img src="assets/images/icons/git.svg" /></a>
+      <a href=${link2} target="_blank">See Source <img src="assets/images/icons/git.svg" /></a>
     </button>
     </div>
     </div>
