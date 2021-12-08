@@ -1,17 +1,18 @@
 export default [
   {
     id: 1,
-    header: 'Tonic',
-    authorLang: 'CANOPY',
-    authorList1: 'Back End Dev',
-    authorList2: '2015',
-    imgSrc: 'assets/images/background_image/first_large.png',
-    para: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam,
-    explicabo. Dolorum eum vitae, quae voluptatem earum debitis minus, facere,
-    at tenetur excepturi nihil! Commodi tenetur cumque iure quos nesciunt sunt!`,
+    header: 'CryptoFest',
+    authorLang: 'PERSONAL',
+    authorList1: 'Front End Dev',
+    authorList2: '2021',
+    imgSrc: 'assets/images/screenshot/cryotfest.png',
+    para: `CryptoFest is a website that announces annual worldwide Crypto
+    conference to discuss crypto-related issues`,
     langList1: 'html',
-    langList2: 'css',
+    langList2: 'scss',
     langList3: 'javascript',
+    link1: '',
+    link2: 'https://github.com/AnselemOdims/Portfolio',
   },
   {
     id: 2,
