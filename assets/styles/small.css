@@ -11,6 +11,7 @@ header {
   align-items: center;
   padding: 24px;
   z-index: 1;
+  backdrop-filter: blur(5px);
 }
 
 header .logo a {
@@ -24,7 +25,7 @@ header .logo a {
 header nav .hamburger-mobile-menu {
   position: fixed;
   z-index: 1;
-  background-color: var(--primary-color-1);
+  background-color: #1b373fd2;
   overflow: auto;
   width: 100vw;
   height: 100vh;
@@ -32,7 +33,7 @@ header nav .hamburger-mobile-menu {
   left: 770px;
   bottom: 0;
   padding: 62px 16px 50px;
-  mix-blend-mode: multiply;
+  backdrop-filter: blur(5px);
   transition: left ease-out 0.6s 0.05s;
 }
 
@@ -245,7 +246,7 @@ header nav .hamburger-mobile-menu > ul > li a {
   font-weight: 600;
   font-size: 38px;
   line-height: 44px;
-  color: var(--neutral-color-1);
+  color: var(--primary-color-1);
 }
 
 /* Footer Section */
