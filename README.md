@@ -7,7 +7,7 @@
 
 - [GH Pages](https://anselemodims.github.io/Portfolio/)
 
-- [Netlify](anselem-portfolio.netlify.app)
+- [Netlify](https://anselem-portfolio.netlify.app/)
 
 # Screenshot
 ![image](https://user-images.githubusercontent.com/43995830/150579988-f181fa0a-4458-41d3-869c-dbe6863a450a.png)
