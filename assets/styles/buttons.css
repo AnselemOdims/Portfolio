@@ -1,5 +1,5 @@
 button.project-btn {
-  border: 1px solid var(--primary-color-1);
+  border: 3px solid var(--primary-color-2);
   border-radius: 8px;
   background: var(--neutral-color-1);
   padding: 0;
@@ -29,7 +29,11 @@ button.project-btn:disabled {
 
 button.project-btn:hover {
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
-  background: #6070ff;
+  background: var(--primary-color-2);
   cursor: pointer;
-  color: var(--neutral-color-1);
+}
+
+button.resume-btn {
+  height: 52px;
+  width: 174px;
 }
