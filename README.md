@@ -1,6 +1,13 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+![](https://img.shields.io/badge/Anselem-blue)
 
 # Portfolio
+> Anselem's personal portflio
+
+## Live Demo
+
+- [GH Pages](https://anselemodims.github.io/Portfolio/)
+
+- [Netlify](anselem-portfolio.netlify.app)
 
 # Screenshot
 ![image](https://user-images.githubusercontent.com/43995830/150579988-f181fa0a-4458-41d3-869c-dbe6863a450a.png)
@@ -15,10 +22,6 @@ Additional description about the project and its features.
 - Major languages - HTML, CSS
 - Frameworks - No Frameworks Used
 - Tools used - Git(version control), WebHint(linting tool), Stylelint(style linting)
-
-## Live Demo
-
-[View Live Demo](https://anselemodims.github.io/Portfolio/)
 
 ## Getting Started
 
