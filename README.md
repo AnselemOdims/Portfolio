@@ -1,16 +1,12 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Microverse Portfolio
+# Portfolio
 
-> Setup and Mobile Version Skeleton
-
-![screenshot](assets/images/screenshot/Portfolio-1.png)
-
-### Hamburger menu
-![screenshot](assets/images/screenshot/hamburger.png)
+# Screenshot
+![image](https://user-images.githubusercontent.com/43995830/150579988-f181fa0a-4458-41d3-869c-dbe6863a450a.png)
 
 ### Modal PopUp
-![screenshot](assets/images/screenshot/modal.png)
+![image](https://user-images.githubusercontent.com/43995830/150580169-5b7a2dc5-7ecf-4fa7-a189-c46319037f26.png)
 
 Additional description about the project and its features.
 
