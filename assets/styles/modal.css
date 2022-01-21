@@ -13,6 +13,7 @@ section.modal {
   right: 0;
   padding: 60px 16px 50px;
   transition: top ease-in-out 0.5s 0.1s;
+  backdrop-filter: blur(5px);
 }
 
 section.modal.close {
@@ -31,6 +32,7 @@ section.modal > .modal-card {
   -webkit-animation-duration: 1s;
   animation-name: slidetop;
   animation-duration: 1s;
+  background: var(--neutral-color-3);
 }
 
 .modal-card > p {
@@ -72,6 +74,7 @@ section.modal > .modal-card {
 
 .modal-card > .card-details > .card-flex > p.project-desc {
   margin: 12px 0;
+  color: var(--primary-color-1);
 }
 
 .modal-card > .card-details > ul.project-lang {

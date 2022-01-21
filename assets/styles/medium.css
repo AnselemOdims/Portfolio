@@ -112,7 +112,7 @@
     text-align: center;
   }
 
-  li.dropdown-list ul li img {
+  .languages > ul > li.dropdown-list img {
     width: 40px;
     height: 40px;
     margin-bottom: 5px;
@@ -129,7 +129,7 @@
   /* Footer Section */
   footer {
     margin-top: 114px;
-    background: var(--primary-color-1) url("../images/background_image/contact\ form\ background\ shapes.svg") 0 200px no-repeat;
+    background: var(--neutral-color-1) url("../images/background_image/contact\ form\ background\ shapes.svg") 0 200px no-repeat;
     position: unset;
   }
 
@@ -151,5 +151,6 @@
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
+    color: var(--primary-color-1);
   }
 }

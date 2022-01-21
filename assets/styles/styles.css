@@ -22,16 +22,16 @@ html {
 }
 
 :root {
-  --primary-color-1: #1028fe;
-  --primary-color-2: #0117df;
+  --primary-color-1: #cccdce;
+  --primary-color-2: #343e97;
   --primary-color-3: #ebebff;
   --primary-color-4: #396df2;
   --primary-color-5: #6070ffd5;
-  --accent-color-1: #172b4d;
-  --accent-color-2: #344563;
-  --neutral-color-1: #fff;
-  --neutral-color-2: #f6f7f8;
-  --neutral-color-3: #dfe1e6;
+  --accent-color-1: #fff;
+  --accent-color-2: #cccdce;
+  --neutral-color-1: #0c4058c9;
+  --neutral-color-3: #0c4058;
+  --neutral-color-2: #1b373f;
   --neutral-color-4: #c1c7d0;
   --neutral-color-5: #51596c;
   --neutral-color-6: #f7f7f9;
@@ -46,4 +46,5 @@ a {
 body {
   margin: 0;
   font-family: Poppins, sans-serif;
+  background: var(--neutral-color-2);
 }

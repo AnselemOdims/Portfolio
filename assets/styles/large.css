@@ -47,7 +47,7 @@
   }
 
   section.card-container > div.card:hover {
-    border: 2px solid #a7aeff;
+    border: 2px solid var(--primary-color-2);
     cursor: pointer;
   }
 
