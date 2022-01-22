@@ -1,3 +1,4 @@
+/* eslint-disable */
 import {
   clickHandler, hamburger, navList, activeHandler, btns,
 } from './utils.js';
@@ -29,3 +30,19 @@ form.addEventListener('submit', formHandler);
 
 // auto fills the inputs with available data in the local storage
 autoFill();
+
+AOS.init();
+
+$(function () {
+	$('.name').textillate({
+    loop: true,
+    initialDelay: 500,
+    minDisplayTime: 500,
+    in: {
+      delay: 120,
+    },
+    out: {
+      effect: 'hinge',
+    }
+  });
+})

@@ -31,11 +31,6 @@
     padding: 0;
   }
 
-  header nav .desktop-menu ul li.active {
-    border-bottom: solid 2px var(--primary-color-1);
-    color: var(--primary-color-1);
-  }
-
   img.socials:hover {
     transform: scale(1.3);
   }
@@ -160,5 +155,13 @@
 
   header nav .desktop-menu ul > li > a:visited {
     color: var(--primary-color-1);
+  }
+
+  header nav .desktop-menu ul li.active {
+    border-bottom: solid 2px var(--primary-color-2);
+  }
+
+  header nav .desktop-menu ul > li.active > a {
+    color: var(--primary-color-2);
   }
 }
