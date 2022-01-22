@@ -102,6 +102,10 @@ section.modal > .modal-card {
   height: 48px;
 }
 
+.modal-card > .card-details .action-btn > button:hover {
+  color: var(--primary-color-1);
+}
+
 .modal-card > .card-details .action-btn button:first-child {
   margin-right: 12px;
 }
@@ -111,11 +115,16 @@ section.modal > .modal-card {
   align-items: center;
   justify-content: center;
   font-size: 15px;
-}
-
-.modal-card .action-btn button a:visited {
   color: var(--primary-color-1);
 }
+
+.modal-card .action-btn button a:hover {
+  color: var(--primary-color-4);
+}
+
+/* .modal-card .action-btn button a:visited {
+  color: var(--primary-color-4);
+} */
 
 .modal-card .action-btn button a img {
   margin-left: 14px;
