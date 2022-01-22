@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/Anselem-blue)
+![](https://img.shields.io/badge/Anselem-green)
 
 # Portfolio
 > Anselem's personal portflio
@@ -10,10 +10,11 @@
 - [Netlify](https://anselem-portfolio.netlify.app/)
 
 # Screenshot
-![image](https://user-images.githubusercontent.com/43995830/150579988-f181fa0a-4458-41d3-869c-dbe6863a450a.png)
+![image](https://user-images.githubusercontent.com/43995830/150636160-0b478717-b3d1-4608-b6c3-4a28eadfc02d.png)
+
 
 ### Modal PopUp
-![image](https://user-images.githubusercontent.com/43995830/150580169-5b7a2dc5-7ecf-4fa7-a189-c46319037f26.png)
+![image](https://user-images.githubusercontent.com/43995830/150636211-78f5f9f6-39b8-4e2f-84e5-f93b2cd280f9.png)
 
 Additional description about the project and its features.
 
