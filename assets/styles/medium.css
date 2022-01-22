@@ -7,6 +7,7 @@
     background: var(--neutral-color-1);
     padding: 26px 60px 26px 93px;
     align-items: center;
+    backdrop-filter: blur(5px);
   }
 
   header nav .hamburger {
@@ -151,6 +152,13 @@
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
+  }
+
+  header nav .desktop-menu ul > li > a {
+    color: var(--primary-color-1);
+  }
+
+  header nav .desktop-menu ul > li > a:visited {
     color: var(--primary-color-1);
   }
 }

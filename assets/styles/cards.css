@@ -82,10 +82,10 @@ section.card-container > div.card,
   margin-right: 8px;
   font-style: normal;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 9px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: var(--primary-color-1);
+  color: var(--primary-color-4);
   height: 24px;
 }
 
