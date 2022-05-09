@@ -114,11 +114,29 @@ section.hero-section {
 
 /* Projects Section */
 section.card-container {
-  margin-top: 114px;
+  margin-top: 0;
   display: grid;
   grid-template-columns: 1fr;
-  gap: 88px 0;
+  gap: 30px 0;
   margin-bottom: 0;
+}
+
+section.card-container > div:first-of-type {
+  width: 100%;
+}
+
+section.card-container > div:first-of-type h1 {
+  color: var(--neutral-color-4);
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+hr.heading {
+  color: var(--neutral-color-4);
+  margin: 0;
+  width: 10%;
+  border: none;
+  border-bottom: solid 3px var(--primary-color-2);
 }
 
 /* About Section */

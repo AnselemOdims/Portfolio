@@ -36,7 +36,7 @@
   /* Projects Section */
   section.card-container {
     margin: 142px 142px 0;
-    gap: 142px 0;
+    gap: 50px 0;
   }
 
   section.card-container > div.card {

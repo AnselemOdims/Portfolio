@@ -1,4 +1,4 @@
-button.project-btn {
+.project-btn {
   border: 3px solid var(--primary-color-2);
   border-radius: 8px;
   background: var(--neutral-color-1);
@@ -15,11 +15,11 @@ button.project-btn {
   width: 124px;
 }
 
-button.project-btn:active {
+.project-btn:active {
   background: #2230d2;
 }
 
-button.project-btn:disabled {
+.project-btn:disabled {
   color: #5e6c84;
   border: 1px solid var(--neutral-color-4);
   background: var(--neutral-color-1);
@@ -27,14 +27,18 @@ button.project-btn:disabled {
   cursor: not-allowed;
 }
 
-button.project-btn:hover {
+.project-btn:hover {
   box-shadow: 0 1px 1px var(--primary-color-2);
   background: var(--primary-color-2);
   cursor: pointer;
   color: var(--primary-color-4);
 }
 
-button.resume-btn {
+.resume-btn {
   height: 52px;
   width: 174px;
+}
+
+.all-btn {
+  padding: 15px 10px;
 }
