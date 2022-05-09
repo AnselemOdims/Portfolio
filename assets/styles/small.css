@@ -217,17 +217,22 @@ hr.heading {
 
 .languages > ul > li.dropdown-list img {
   margin-right: 0;
-  width: 10%;
+  width: 60%;
 }
 
 li.dropdown-list ul {
   list-style: none;
   padding: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 24%);
+  width: 100%;
 }
 
 li.dropdown-list ul li {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
   margin: 12px;
   padding: 9px 0 9.72px 12px;
   background: var(--neutral-color-1);
@@ -235,10 +240,10 @@ li.dropdown-list ul li {
 }
 
 li.dropdown-list ul li span {
-  margin-left: 16px;
+  margin: 10px 0 0;
   font-style: normal;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 0.8rem;
   line-height: 20px;
   color: var(--primary-color-1);
 }

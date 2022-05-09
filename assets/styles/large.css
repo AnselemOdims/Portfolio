@@ -126,8 +126,8 @@
 
   .languages > ul > li.dropdown-list ul {
     display: grid;
-    grid-template-columns: repeat(3, 33.333333%);
-    width: 80%;
+    grid-template-columns: repeat(5, 24%);
+    width: 100%;
   }
 
   .languages > ul > li.dropdown-list ul li {
