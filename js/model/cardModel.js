@@ -1,11 +1,64 @@
 export default [
   {
     id: 1,
+    header: 'BudgIT',
+    authorLang: ' PERSONAL',
+    authorList1: 'Full-stack Dev',
+    authorList2: '2022',
+    imgSrc: 'https://user-images.githubusercontent.com/43995830/164492108-6a8bd0cf-00c4-4b7c-be6c-b57fa32e5af1.gif',
+    para: `BudgIT is a mobile-web app that takes a record of categories and
+    the transactions carried out on a category. User can create
+    transactions on each of the category or can create a category
+    themselves`,
+    langList1: 'ruby',
+    langList2: 'rails',
+    langList3: 'sass',
+    langList4: 'javascript',
+    link1: 'https://thawing-castle-09878.herokuapp.com/',
+    link2: 'https://github.com/AnselemOdims/BudgIT',
+  },
+  {
+    id: 2,
+    header: 'Recipe App',
+    authorLang: ' PERSONAL',
+    authorList1: 'Full-stack Dev',
+    authorList2: '2022',
+    imgSrc: 'assets/images/screenshot/Recipe.png',
+    para: `The Recipe app keeps track of all your recipes, ingredients, and
+    inventory. It will allow you to save ingredients, keep track of
+    what you have, create recipes, and generate a shopping list based
+    on what you have and what you are missing from recipes`,
+    langList1: 'ruby',
+    langList2: 'rails',
+    langList3: 'sass',
+    langList4: 'bootstrap',
+    link1: 'https://wanna-share-some-recipes.herokuapp.com/',
+    link2: 'https://github.com/AnselemOdims/Recipe-App',
+  },
+  {
+    id: 3,
+    header: 'Stock-Metrics',
+    authorLang: ' PERSONAL',
+    authorList1: 'Front End Dev',
+    authorList2: '2022',
+    imgSrc: 'https://github.com/AnselemOdims/Stock-metrics/raw/main/src/images/demo.gif',
+    para: `Stock metrics is a web(mobile-focused) app for checking the
+    companies listed on the stock exchange and see their live metrics.
+    Its data is consumed from the Financial modelling API.`,
+    langList1: 'react',
+    langList2: 'redux',
+    langList3: 'styled-components',
+    langList4: 'javascript',
+    link1: 'https://stock-metrics.netlify.app/',
+    link2: 'https://github.com/AnselemOdims/Stock-metrics',
+  },
+  {
+    id: 4,
     header: 'Bookstore',
     authorLang: ' PERSONAL',
     authorList1: 'Front End Dev',
     authorList2: '2022',
-    imgSrc: 'assets/images/background_image/bookstore.png',
+    imgSrc: 'https://github.com/AnselemOdims/Bookstore/raw/develop/src/images/bookstore.gif',
     para: 'Bookstore is an app that allows you to display a list of added books, add new book and remove a book.',
     langList1: 'react',
     langList2: 'redux',
@@ -15,27 +68,27 @@ export default [
     link2: 'https://github.com/AnselemOdims/Bookstore',
   },
   {
-    id: 2,
+    id: 5,
     header: 'CryptoFest',
     authorLang: 'PERSONAL',
     authorList1: 'Front End Dev',
     authorList2: '2021',
-    imgSrc: 'assets/images/screenshot/cryotfest.png',
+    imgSrc: 'https://user-images.githubusercontent.com/43995830/167378177-998c6649-ff0d-4159-8d8d-d4d914bc71bf.gif',
     para: `CryptoFest is a website that announces annual worldwide Crypto
     conference to discuss crypto-related issues`,
     langList1: 'html',
     langList2: 'scss',
     langList3: 'javascript',
     link1: 'https://anselemodims.github.io/CryptoFest/',
-    link2: 'https://github.com/AnselemOdims/Portfolio',
+    link2: 'https://github.com/AnselemOdims/CryptoFest',
   },
   {
-    id: 3,
+    id: 6,
     header: 'MazeFlix',
     authorLang: 'PERSONAL',
     authorList1: 'Front End Dev',
     authorList2: '2021',
-    imgSrc: 'assets/images/background_image/mazeflix-1.png',
+    imgSrc: 'https://github.com/AnselemOdims/MazeFlix/raw/main/src/assets/images/maze-flix.gif',
     para: ` MazeFlix is an entertainment hub where you can find the latest and
     your favorite TV shows. You can view the details of the show, like
     a show or even comment. You can also see other comments which
@@ -49,12 +102,12 @@ export default [
     link2: 'https://github.com/AnselemOdims/MazeFlix',
   },
   {
-    id: 4,
+    id: 7,
     header: 'LeaderBoard',
     authorLang: 'PERSONAL',
     authorList1: 'Front End Dev',
     authorList2: '2021',
-    imgSrc: 'assets/images/background_image/leaderboard.png',
+    imgSrc: 'https://github.com/AnselemOdims/LeaderBoard/raw/develop/src/images/screenshots/Screencast%20from%2012-15-2021%2003%2058%2047%20PM.gif',
     para: ` The leaderboard website displays scores submitted by different players. It also allows you to submit your score. 
     All data is preserved thanks to the external Leaderboard API service.`,
     langList1: 'html',
@@ -65,12 +118,12 @@ export default [
     link2: 'https://github.com/AnselemOdims/LeaderBoard',
   },
   {
-    id: 5,
+    id: 8,
     header: 'To-Do',
     authorLang: 'PERSONAL',
     authorList1: 'Front End Dev',
     authorList2: '2021',
-    imgSrc: 'assets/images/background_image/todo-1.png',
+    imgSrc: 'https://github.com/AnselemOdims/To-Do/raw/main/src/images/screenshots/Screencast%20from%2012-15-2021%2003%2036%2036%20PM.gif',
     para: `To-do is a web app that helps to organize your day-to-day
     activities. It lists all the activities that you need to be
     completed and allows you to mark them as complete or not.`,

@@ -97,7 +97,9 @@
   }
 
   .languages > ul > li.dropdown-list ul {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 24%);
+    width: 100%;
   }
 
   li.dropdown-list > ul > li {
