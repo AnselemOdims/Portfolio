@@ -1,6 +1,39 @@
 export default [
   {
     id: 1,
+    header: 'Bookie',
+    authorLang: ' PERSONAL',
+    authorList1: 'Full-stack Dev',
+    authorList2: '2022',
+    imgSrc: 'https://user-images.githubusercontent.com/43995830/174046991-6067e94a-5bbe-437b-8528-4478a09d91a8.gif',
+    para: `Bookie is a full stack web application that allows users book an
+    appointment with doctors online. Users can see a list of doctors,
+    their reservations and cancel a reservation.`,
+    langList1: 'ruby',
+    langList2: 'rails',
+    langList3: 'react',
+    langList4: 'sass',
+    link1: 'https://book-appointments-frontend.netlify.app/',
+    link2: 'https://github.com/AnselemOdims/book-appointment-frontend',
+  },
+  {
+    id: 2,
+    header: 'Fitness Blog',
+    authorLang: ' PERSONAL',
+    authorList1: 'Full-stack Dev',
+    authorList2: '2022',
+    imgSrc: 'https://user-images.githubusercontent.com/43995830/174019509-5eda31e9-48db-452f-8bfc-306fcdd4a906.gif',
+    para: `Fitness_blog is a blog app where users post about their fitness
+    journey. Users can comment on and like other users' posts`,
+    langList1: 'ruby',
+    langList2: 'rails',
+    langList3: 'sass',
+    langList4: 'javascript',
+    link1: 'https://sheltered-coast-01547.herokuapp.com/',
+    link2: 'https://github.com/AnselemOdims/Fitness_Blog',
+  },
+  {
+    id: 3,
     header: 'BudgIT',
     authorLang: ' PERSONAL',
     authorList1: 'Full-stack Dev',
@@ -18,7 +51,7 @@ export default [
     link2: 'https://github.com/AnselemOdims/BudgIT',
   },
   {
-    id: 2,
+    id: 4,
     header: 'Recipe App',
     authorLang: ' PERSONAL',
     authorList1: 'Full-stack Dev',
@@ -36,7 +69,7 @@ export default [
     link2: 'https://github.com/AnselemOdims/Recipe-App',
   },
   {
-    id: 3,
+    id: 5,
     header: 'Stock-Metrics',
     authorLang: ' PERSONAL',
     authorList1: 'Front End Dev',
@@ -53,7 +86,7 @@ export default [
     link2: 'https://github.com/AnselemOdims/Stock-metrics',
   },
   {
-    id: 4,
+    id: 6,
     header: 'Bookstore',
     authorLang: ' PERSONAL',
     authorList1: 'Front End Dev',
@@ -68,7 +101,7 @@ export default [
     link2: 'https://github.com/AnselemOdims/Bookstore',
   },
   {
-    id: 5,
+    id: 7,
     header: 'CryptoFest',
     authorLang: 'PERSONAL',
     authorList1: 'Front End Dev',
@@ -83,7 +116,7 @@ export default [
     link2: 'https://github.com/AnselemOdims/CryptoFest',
   },
   {
-    id: 6,
+    id: 8,
     header: 'MazeFlix',
     authorLang: 'PERSONAL',
     authorList1: 'Front End Dev',
@@ -102,7 +135,7 @@ export default [
     link2: 'https://github.com/AnselemOdims/MazeFlix',
   },
   {
-    id: 7,
+    id: 9,
     header: 'LeaderBoard',
     authorLang: 'PERSONAL',
     authorList1: 'Front End Dev',
@@ -118,7 +151,7 @@ export default [
     link2: 'https://github.com/AnselemOdims/LeaderBoard',
   },
   {
-    id: 8,
+    id: 10,
     header: 'To-Do',
     authorLang: 'PERSONAL',
     authorList1: 'Front End Dev',
